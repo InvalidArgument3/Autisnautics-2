@@ -47,7 +47,6 @@ const isServerMod = (filename) => {
         && !fillet.includes("fancymenu")
         && !fillet.includes("drippyloadingscreen")
         && !fillet.includes("betterclouds")
-        && !fillet.includes("pretty rain")
         && !fillet.includes("screenshot_viewer")
         && !fillet.includes("restorechatlinks")
         && !fillet.includes("shut_up_gl_error")
