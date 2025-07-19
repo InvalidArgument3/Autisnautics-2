@@ -189,11 +189,6 @@
     "modId": "bcc",
     "version": "4.0.8"
   },
-  "BetterGrassify-1.4.4+forge.1.20.1.jar": {
-    "jarName": "BetterGrassify-1.4.4+forge.1.20.1.jar",
-    "modId": "bettergrass",
-    "version": "1.4.4+forge.1.20.1"
-  },
   "bettermobcombat-forge-1.20.1-1.3.0-all.jar": {
     "jarName": "bettermobcombat-forge-1.20.1-1.3.0-all.jar",
     "modId": "bettermobcombat",
@@ -912,6 +907,11 @@
     "modId": "interiors",
     "version": "0.5.6"
   },
+  "invtweaks-1.20.1-1.2.1.jar": {
+    "jarName": "invtweaks-1.20.1-1.2.1.jar",
+    "modId": "invtweaks",
+    "version": "1.2.1"
+  },
   "item_split_bug_fix-1.20.1-1.4.jar": {
     "jarName": "item_split_bug_fix-1.20.1-1.4.jar",
     "modId": "item_split_bug_fix",
@@ -1165,8 +1165,8 @@
     "modId": "naturescompass",
     "version": "1.20.1-1.11.2-forge"
   },
-  "netherportalfix-forge-1.20-13.0.1.jar": {
-    "jarName": "netherportalfix-forge-1.20-13.0.1.jar",
+  "netherportalfixtr-13.0.1.jar": {
+    "jarName": "netherportalfixtr-13.0.1.jar",
     "modId": "netherportalfix",
     "version": "13.0.1"
   },
