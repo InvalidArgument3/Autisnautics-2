@@ -34,6 +34,29 @@ const includeList = [
     "shaderpacks"
 ]
 
+const isServerMod = (filename) => {
+    const fillet = filename.toLowerCase();
+    return (
+        !fillet.includes("oculus")
+        && !fillet.includes("zume")
+        && !fillet.includes("watermedia")
+        && !fillet.includes("embeddium")
+        && !fillet.includes("embeddiumplus")
+        && !fillet.includes("citresewn")
+        && !fillet.includes("legendarytooltips")
+        && !fillet.includes("fancymenu")
+        && !fillet.includes("drippyloadingscreen")
+        && !fillet.includes("betterclouds")
+        && !fillet.includes("pretty rain")
+        && !fillet.includes("screenshot_viewer")
+        && !fillet.includes("restorechatlinks")
+        && !fillet.includes("shut_up_gl_error")
+        && !fillet.endsWith(".disabled")
+        && fillet.includes(".jar")
+    );
+};
+
+
 /**
  * @param {fs.PathLike} ourDir
  * @param {fs.PathLike} newDir
@@ -56,11 +79,23 @@ const symlinkSync = (ourDir, newDir) => {
  * @param {(file: string) => boolean} filter
  */
 const cpSyncFiltered = (ourDir, newDir, filter) => {
-    for (const file of fs.readdirSync(ourDir, { recursive:false })) {
+    if (!fs.existsSync(ourDir)) return;
+    
+    fs.mkdirSync(newDir, { recursive: true });
+    
+    for (const file of fs.readdirSync(ourDir, { recursive: false })) {
         if (!filter(file)) continue;
-        fs.copyFileSync(path.join(ourDir, file), path.join(newDir, file))
+        
+        const srcPath = path.join(ourDir, file);
+        const destPath = path.join(newDir, file);
+        
+        if (fs.lstatSync(srcPath).isDirectory()) {
+            fs.cpSync(srcPath, destPath, { recursive: true });
+        } else {
+            fs.copyFileSync(srcPath, destPath);
+        }
     }
-}
+};
 
 async function packMod(group) {
     Juke.rm(`dist/.tmp/${group}`, { recursive: true });
@@ -257,31 +292,18 @@ export const BuildServerTarget = new Juke.Target({
         ...includeList.map(v => `dist/server/${v}`)
     ]),
     executes: async () => {
-        fs.mkdirSync("dist/server", { recursive: true })
-        for (const folders of includeList) {
-            fs.cpSync(folders, `dist/server/${folders}`, { recursive: true })
+        fs.mkdirSync("dist/server", { recursive: true });
+        
+        // Copy non-mod folders normally
+        for (const folders of includeList.filter(f => f !== "mods")) {
+            fs.cpSync(folders, `dist/server/${folders}`, { recursive: true });
         }
 
-        cpSyncFiltered("dist/modcache/", "dist/server/mods", file => {
-            const fillet = file.toLowerCase();
-            return (
-                !fillet.includes("oculus")
-        && !fillet.includes("zume")
-        && !fillet.includes("watermedia")
-        && !fillet.includes("embeddium")
-        && !fillet.includes("embeddiumplus")
-        && !fillet.includes("citresewn")
-        && !fillet.includes("legendarytooltips")
-        && !fillet.includes("fancymenu")
-        && !fillet.includes("drippyloadingscreen")
-        && !fillet.includes("betterclouds")
-        && !fillet.includes("pretty rain")
-        && !fillet.includes("screenshot_viewer")
-        && !fillet.includes("restorechatlinks")
-        && !fillet.includes("shut_up_gl_error")
-        && fillet.includes(".jar")
-            )
-        })
+        // Copy local mods with server filter
+        cpSyncFiltered("mods", "dist/server/mods", isServerMod);
+        
+        // Copy CurseForge mods with same server filter
+        cpSyncFiltered("dist/modcache", "dist/server/mods", isServerMod);
 
         await packMod("server");
     }
