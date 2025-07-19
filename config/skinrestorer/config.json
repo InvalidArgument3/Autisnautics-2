@@ -1,7 +1,7 @@
 {
   "language": "en_us",
   "refreshSkinOnJoin": true,
-  "skinApplyDelayOnJoin": 0,
+  "skinApplyDelayOnJoin": 60,
   "fetchSkinOnFirstJoin": true,
   "firstJoinSkinProvider": "MOJANG",
   "proxy": "",
