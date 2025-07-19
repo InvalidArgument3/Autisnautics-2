@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_resources"
+	group: "79DBEF62FF5CD2D9"
+	icon: {
+		Count: 1
+		id: "minecraft:wooden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "560F3B495821E18C"
+	images: [
+		{
+			color: 327455
+			height: 1.0d
+			image: "minecraft:item/empty_armor_slot_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 6684425
+			height: 1.0d
+			image: "minecraft:item/empty_armor_slot_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/empty_armor_slot_leggings"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/empty_armor_slot_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "curios:slot/empty_back_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Starting Resources"
+}

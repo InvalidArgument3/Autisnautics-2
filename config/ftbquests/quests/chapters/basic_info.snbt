@@ -1,0 +1,79 @@
+{
+	autofocus_id: "376F399A85832658"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_info"
+	group: "79DBEF62FF5CD2D9"
+	icon: "create:clipboard"
+	id: "56284ADB6BDA71D8"
+	images: [{
+		height: 1.0d
+		image: "ftbteams:textures/add.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:clipboard"
+			id: "376F399A85832658"
+			tasks: [{
+				id: "48E1E9E83F77109F"
+				title: "Welcome to Autisnautics II!"
+				type: "checkmark"
+			}]
+			title: "Basic Information"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17817EA324333BE9"]
+			description: ["{image: width:100 height:100 align:center}"]
+			icon: "regions_unexplored:ashen_sapling"
+			id: "3EEF098FB1D343AD"
+			tasks: [{
+				id: "7614DC60ADE71DC3"
+				title: "The World"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["376F399A85832658"]
+			description: [" Most mod controls have been unbound. There's a handy new binding UI in the settings menu, make sure to use it!"]
+			icon: "touhou_little_maid:keyboard"
+			id: "17817EA324333BE9"
+			subtitle: "I WILL NOT BE BOUND"
+			tasks: [{
+				id: "44AC56E1CC5E8DE5"
+				title: "Controls (README!)"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "6BC4C7084350D5D7"
+			subtitle: ">minecraft combat"
+			tasks: [{
+				id: "3E8804BDBDD5EB5C"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better™® Combat"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Basic Info"
+}
