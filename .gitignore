@@ -18,6 +18,7 @@
 !/mods/systeams*
 !/mods/ExtendedCrafting*
 !/resourcepacks*
+!/shaderpacks*
 
 /mods/.index
 /mods/.connector
