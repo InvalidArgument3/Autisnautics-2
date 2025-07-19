@@ -1,4 +1,4 @@
-# Panpack template build script
+# Autisnautics2 template build script
 
 Uses juke from <https://github.com/tgstation/tgstation>
 

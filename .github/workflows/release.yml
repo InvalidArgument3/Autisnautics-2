@@ -127,7 +127,7 @@ jobs:
           for file in ./*; do
             if [[ $file == *.zip ]]; then
               base=$(basename $file)
-              versioned_file="PanPack-${{steps.name.outputs.name}}-$base"
+              versioned_file="Autisnautics2-${{steps.name.outputs.name}}-$base"
               mv "$file" "$versioned_file"
             fi
           done
@@ -189,6 +189,6 @@ jobs:
           changelog: "For a detailed changelog, see the GitHub release: ${{ steps.release.outputs.html_url }}"
           changelog-format: "text"
           game-version: "1.20.1"
-          display-name: "PanPack Template ${{steps.name.outputs.name}}"
-          server-display-name: "Panpack Template ${{steps.name.outputs.name}} Server"
+          display-name: "Autisnautics2 Template ${{steps.name.outputs.name}}"
+          server-display-name: "Autisnautics2 Template ${{steps.name.outputs.name}} Server"
           release-type: ${{ github.event.inputs.cf_type }}

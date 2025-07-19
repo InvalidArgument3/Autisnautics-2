@@ -1,5 +1,5 @@
 /**
- * Custom ESLint plugin for PanPack Template's KubeJS
+ * Custom ESLint plugin for Autisnautics2 Template's KubeJS
  */
 
 import commentHeader from "./comment-header.mjs"
