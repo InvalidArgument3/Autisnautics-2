@@ -24,6 +24,18 @@
 /mods/.connector
 /mods/memoryleakfix*
 
+# this is convoluted wtf git
+!/mods/
+/mods/*
+# mods we do want to keep? (cf overrides)
+!/mods/Connector-*.jar
+!/mods/IAS-Forge-*.jar
+!/mods/mnamixin-*.jar
+!/mods/naturaltemperature-*.jar
+!/mods/RestoreChatLinks-*.jar
+!/mods/threadtweak-*.jar
+!/mods/VMod-*.jar
+
 # VSCode
 !/.vscode
 /.vscode/*
