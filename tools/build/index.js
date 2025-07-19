@@ -277,6 +277,8 @@ export const BuildServerTarget = new Juke.Target({
         && !fillet.includes("betterclouds")
         && !fillet.includes("pretty rain")
         && !fillet.includes("screenshot_viewer")
+        && !fillet.includes("restorechatlinks")
+        && !fillet.includes("shut_up_gl_error")
         && fillet.includes(".jar")
             )
         })
