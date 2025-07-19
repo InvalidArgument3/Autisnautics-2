@@ -1,12 +1,11 @@
-import Juke from 'juke-build';
-import fs from 'fs';
-import https from 'https';
+import Juke from "juke-build";
+import fs from "fs";
+import https from "https";
 
-export const GetModInfo = async (key, modID) => {
-    const modData = await fetch(`https://api.curseforge.com/v1/mods/${modID}`, {
+export const GetModInfo = async (modID) => {
+    const modData = await fetch(`https://api.curse.tools/v1/cf/mods/${modID}`, {
         redirect: "follow",
         headers: {
-            "X-Api-Key": key,
             Accept: "application/json"
         }
     });
@@ -22,7 +21,7 @@ export const GetModInfo = async (key, modID) => {
     return (await modData.json()).data;
 }
 
-export const DownloadCF = async (key, modInfo = {}, dest, retrycount) => {
+export const DownloadCF = async (modInfo = {}, dest, retrycount) => {
     if (retrycount === null || retrycount === undefined) {
         retrycount = 5;
     }
@@ -31,13 +30,10 @@ export const DownloadCF = async (key, modInfo = {}, dest, retrycount) => {
         Juke.logger.error(`Bad DownloadCF modInfo args. modID: ${modID} | modFileID: ${modFileID}`);
         throw new Juke.ExitCode(1);
     }
-    const headers = {
-        "X-Api-Key": key
-    }
 
-    const modData = await fetch(`https://api.curseforge.com/v1/mods/${modID}/files/${modFileID}`, {
+    const modData = await fetch(`https://api.curse.tools/v1/cf/mods/${modID}/files/${modFileID}`, {
         redirect: "follow",
-        headers: {...headers, Accept: "application/json"}
+        headers: {Accept: "application/json"}
     });
 
     if (modData.status !== 200) {
@@ -48,11 +44,11 @@ export const DownloadCF = async (key, modInfo = {}, dest, retrycount) => {
             Juke.logger.error(`Failed to fetch download url at ${modData.url}: ${modData.status}`);
         }
         if (retrycount <= 0) {
-            Juke.logger.error('Exhausted retries, exiting download');
+            Juke.logger.error("Exhausted retries, exiting download");
             throw new Juke.ExitCode(1);
         }
         retrycount--;
-        return await DownloadCF(key, modInfo, dest, retrycount);
+        return await DownloadCF(modInfo, dest, retrycount);
     }
     const modDataJson = (await modData.json()).data;
 
@@ -67,25 +63,25 @@ export const DownloadCF = async (key, modInfo = {}, dest, retrycount) => {
     Juke.logger.info(`Downloading: ${modDataJson.fileName}`)
 
     try {
-        await download_file(modDataJson.downloadUrl, { headers: headers }, dest);
+        await download_file(modDataJson.downloadUrl, {}, dest);
     } catch {
         Juke.logger.warn(`Download failed ${modDataJson.fileName}`)
         if (retrycount <= 0) {
-            Juke.logger.error('Exhausted retries, exiting download');
+            Juke.logger.error("Exhausted retries, exiting download");
             throw new Juke.ExitCode(1);
         }
         retrycount--;
-        return await DownloadCF(key, modInfo, dest, retrycount);
+        return await DownloadCF(modInfo, dest, retrycount);
     }
 
     if (!fs.existsSync(dest) || fs.statSync(dest).size !== modDataJson.fileLength) {
         Juke.logger.warn(`Download failed ${modDataJson.fileName}`)
         if (retrycount <= 0) {
-            Juke.logger.error('Exhausted retries, exiting download');
+            Juke.logger.error("Exhausted retries, exiting download");
             throw new Juke.ExitCode(1);
         }
         retrycount--;
-        return await DownloadCF(key, modInfo, dest, retrycount);
+        return await DownloadCF(modInfo, dest, retrycount);
     }
     return modDataJson;
 };
