@@ -17,6 +17,7 @@
 !/KNOWN-ISSUES.md
 !/mods/systeams*
 !/mods/ExtendedCrafting*
+!/resourcepacks*
 
 /mods/.index
 /mods/.connector
