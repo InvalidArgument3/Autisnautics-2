@@ -109,11 +109,6 @@
     "modId": "aquaculture",
     "version": "2.5.5"
   },
-  "aquaculturedelight-1.1.1-forge-1.20.1.jar": {
-    "jarName": "aquaculturedelight-1.1.1-forge-1.20.1.jar",
-    "modId": "aquaculturedelight",
-    "version": "1.1.1"
-  },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
     "modId": "architectury",
@@ -907,11 +902,6 @@
     "modId": "interiors",
     "version": "0.5.6"
   },
-  "invtweaks-1.20.1-1.2.1.jar": {
-    "jarName": "invtweaks-1.20.1-1.2.1.jar",
-    "modId": "invtweaks",
-    "version": "1.2.1"
-  },
   "item_split_bug_fix-1.20.1-1.4.jar": {
     "jarName": "item_split_bug_fix-1.20.1-1.4.jar",
     "modId": "item_split_bug_fix",
@@ -1289,6 +1279,11 @@
     "jarName": "Placebo-1.20.1-8.6.3.jar",
     "modId": "placebo",
     "version": "8.6.3"
+  },
+  "Platform-forge-1.20.1-1.2.10.1.jar": {
+    "jarName": "Platform-forge-1.20.1-1.2.10.1.jar",
+    "modId": "platform",
+    "version": "1.2.10.1"
   },
   "player-animation-lib-forge-1.0.2-rc1+1.20.jar": {
     "jarName": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
@@ -1692,6 +1687,11 @@
     "jarName": "valkyrienskies-120-2.3.0-beta.7.jar",
     "modId": "valkyrienskies",
     "version": "2.3.0-beta.7"
+  },
+  "vanillabackport-forge-1.20.1-1.1.4.3.jar": {
+    "jarName": "vanillabackport-forge-1.20.1-1.1.4.3.jar",
+    "modId": "vanillabackport",
+    "version": "1.1.4.3"
   },
   "visual_keybinder-1.20.1 - 0.1.7.jar": {
     "jarName": "visual_keybinder-1.20.1 - 0.1.7.jar",

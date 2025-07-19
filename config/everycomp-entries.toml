@@ -549,6 +549,10 @@
 			metamorphic_mesa_cobblestone = true
 			metamorphic_mesa_bricks = true
 
+		[types.cut_block_type.vanillabackport]
+			pale_oak = true
+			resin_brick = true
+
 	[types.cake]
 
 		[types.cake.youkaishomecoming]
@@ -610,6 +614,9 @@
 			livingwood = true
 			dreamwood = true
 
+		[types.wood_type.vanillabackport]
+			pale_oak = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.occultism]
@@ -668,6 +675,9 @@
 
 		[types.leaves_type.alexscaves]
 			ancient = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
 
 #Disables specific entries
 [entries]
