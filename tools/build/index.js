@@ -50,6 +50,7 @@ const isServerMod = (filename) => {
         && !fillet.includes("screenshot_viewer")
         && !fillet.includes("restorechatlinks")
         && !fillet.includes("shut_up_gl_error")
+        && !fillet.includes("disableaccessibilityscreen")
         && !fillet.endsWith(".disabled")
         && fillet.includes(".jar")
     );
