@@ -4,9 +4,6 @@
 
 	[types.cut_block_type]
 
-		[types.cut_block_type.occultism]
-			otherstone = true
-
 		[types.cut_block_type.youkaishomecoming]
 			sikkui = true
 			cross_framed_sikkui = true
@@ -553,6 +550,13 @@
 			pale_oak = true
 			resin_brick = true
 
+		[types.cut_block_type.rats]
+			marbled_cheese = true
+			marbled_cheese_brick = true
+			marbled_cheese_brick_cracked = true
+			marbled_cheese_brick_mossy = true
+			pirat = true
+
 	[types.cake]
 
 		[types.cake.youkaishomecoming]
@@ -617,10 +621,10 @@
 		[types.wood_type.vanillabackport]
 			pale_oak = true
 
-	[types.leaves_type]
+		[types.wood_type.rats]
+			pirat = true
 
-		[types.leaves_type.occultism]
-			otherworld = true
+	[types.leaves_type]
 
 		[types.leaves_type.tconstruct]
 			earth_slime = true
@@ -678,6 +682,9 @@
 
 		[types.leaves_type.vanillabackport]
 			pale_oak = true
+
+		[types.leaves_type.rats]
+			pirat = true
 
 #Disables specific entries
 [entries]

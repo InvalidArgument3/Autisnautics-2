@@ -24,10 +24,10 @@
     "modId": "adpother",
     "version": "8.1.28.0"
   },
-  "AdvancedPeripherals-1.20.1-0.7.44r.jar": {
-    "jarName": "AdvancedPeripherals-1.20.1-0.7.44r.jar",
+  "AdvancedPeripherals-1.20.1-0.7.41r.jar": {
+    "jarName": "AdvancedPeripherals-1.20.1-0.7.41r.jar",
     "modId": "advancedperipherals",
-    "version": "0.7.44r"
+    "version": "0.7.41r"
   },
   "AkashicTome-1.7-27.jar": {
     "jarName": "AkashicTome-1.7-27.jar",
@@ -557,6 +557,11 @@
     "modId": "ding",
     "version": "1.5.0"
   },
+  "disableaccessibilityscreen-1.0.1.jar": {
+    "jarName": "disableaccessibilityscreen-1.0.1.jar",
+    "modId": "disableaccessibilityscreen",
+    "version": "1.0.1"
+  },
   "do_a_barrel_roll-forge-3.5.6+1.20.1.jar": {
     "jarName": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
     "modId": "do_a_barrel_roll",
@@ -902,6 +907,11 @@
     "modId": "interiors",
     "version": "0.5.6"
   },
+  "item-filters-forge-2001.1.0-build.59.jar": {
+    "jarName": "item-filters-forge-2001.1.0-build.59.jar",
+    "modId": "itemfilters",
+    "version": "2001.1.0-build.59"
+  },
   "item_split_bug_fix-1.20.1-1.4.jar": {
     "jarName": "item_split_bug_fix-1.20.1-1.4.jar",
     "modId": "item_split_bug_fix",
@@ -1155,8 +1165,8 @@
     "modId": "naturescompass",
     "version": "1.20.1-1.11.2-forge"
   },
-  "netherportalfixtr-13.0.1.jar": {
-    "jarName": "netherportalfixtr-13.0.1.jar",
+  "netherportalfix-forge-1.20-13.0.1.jar": {
+    "jarName": "netherportalfix-forge-1.20-13.0.1.jar",
     "modId": "netherportalfix",
     "version": "13.0.1"
   },
@@ -1199,11 +1209,6 @@
     "jarName": "observable-4.4.2.jar",
     "modId": "observable",
     "version": "4.4.2"
-  },
-  "occultism-1.20.1-1.141.4.jar": {
-    "jarName": "occultism-1.20.1-1.141.4.jar",
-    "modId": "occultism",
-    "version": "1.141.4"
   },
   "oceansdelight-1.0.2-1.20.jar": {
     "jarName": "oceansdelight-1.0.2-1.20.jar",
@@ -1389,6 +1394,16 @@
     "jarName": "rarcompat-1.20.1-0.1.7.jar",
     "modId": "rarcompat",
     "version": "0.1.7"
+  },
+  "Rats-1.20.1-8.1.3.jar": {
+    "jarName": "Rats-1.20.1-8.1.3.jar",
+    "modId": "rats",
+    "version": "1.20.1-8.1.3"
+  },
+  "rebind_narrator-forge-1.20.1-2.0.2.jar": {
+    "jarName": "rebind_narrator-forge-1.20.1-2.0.2.jar",
+    "modId": "rebind_narrator",
+    "version": "2.0.2"
   },
   "RegionsUnexploredForge-0.5.6+1.20.1.jar": {
     "jarName": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
@@ -1607,11 +1622,6 @@
     "jarName": "Tinker-Things-1.20.1-1.3.2.jar",
     "modId": "tinkers_things",
     "version": "1.3.2"
-  },
-  "TinkerBetterCombat 0.5.jar": {
-    "jarName": "TinkerBetterCombat 0.5.jar",
-    "modId": "tinkers_better_combat",
-    "version": "1.8.6"
   },
   "tinkersjewelry-1.1.0.jar": {
     "jarName": "tinkersjewelry-1.1.0.jar",
