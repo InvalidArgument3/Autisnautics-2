@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Gelatin",
+    "description": "Blobbians spawn with a generic gelatin dessert that is unaffiliated with Jell-O™.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "alexscaves:gelatin_green",
+        "amount": 1
+    }
+}

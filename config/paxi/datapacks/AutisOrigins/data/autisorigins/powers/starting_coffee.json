@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Coffee",
+    "description": "Daemons spawn with 250mB of organic fuel.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "farmersrespite:coffee",
+        "amount": 1
+    }
+}

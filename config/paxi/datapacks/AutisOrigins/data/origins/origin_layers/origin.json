@@ -1,0 +1,18 @@
+{
+    "replace": true,
+    "origins": [
+        "autisorigins:accursed_one",
+        "autisorigins:autist",
+        "autisorigins:blobbian",
+        "autisorigins:cactoid",
+        "autisorigins:daemon",
+        "autisorigins:duckborn",
+        "autisorigins:haniwa",
+        "autisorigins:hedgehog",
+        "autisorigins:khajiit",
+        "autisorigins:rat"
+    ],
+    "enabled": true,
+    "allow_random": true,
+    "default_origin": ""
+}

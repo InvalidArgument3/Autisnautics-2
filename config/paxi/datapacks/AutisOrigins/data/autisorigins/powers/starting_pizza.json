@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Pizza",
+    "description": "Hedgehogs spawn with one last slice of pizza.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "brewinandchewin:pizza_slice",
+        "amount": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Canned Food",
+    "description": "Autists spawn with one (1) ration of soulless canned food.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "youkaishomecoming:canned_flesh",
+        "amount": 1
+    }
+}

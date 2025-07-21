@@ -1,0 +1,15 @@
+{
+    "name": "Brainless",
+    "description": "blobibs dont have a brain to member any expereinces with. all the shiny orbes go in one ear and outt the other. bolbis frends can handle the experimence stuff instead :D",
+    "condition": {
+        "type": "origins:xp_points",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:add_xp",
+        "levels": -1
+    }
+}

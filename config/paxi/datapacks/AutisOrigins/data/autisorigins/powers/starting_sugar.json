@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Sugar",
+    "description": "Khajiit always have some moon sugar on them, even if they pretend they don't.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:sugar",
+        "amount": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Ring of Seven Curses",
+    "description": "Accursed Ones spawn with a dreadful cursed ring. Once equipped, the ring cannot be removed unless you grasp divine power with your own bloody hands.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "enigmaticlegacy:cursed_ring",
+        "amount": 1
+    }
+}

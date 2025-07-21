@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Onigiri",
+    "description": "Haniwa spawn carrying a leftover rice ball.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "youkaishomecoming:onigili",
+        "amount": 1
+    }
+}

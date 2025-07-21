@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Burger",
+    "description": "Cactoids always carry an emergency burger.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "farmersdelight:hamburger",
+        "amount": 1
+    }
+}

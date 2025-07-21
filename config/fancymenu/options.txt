@@ -24,7 +24,8 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'true';
+B:show_custom_window_icon = 'false'; ## for future generations, kubejs icon setter is way better
+S:custom_window_icon_macos = '/config/fancymenu/assets/autisnatuics2icon32.icns';
 S:custom_window_icon_macos = '/config/fancymenu/assets/autisnatuics2icon32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/autisnatuics2icon32.png';
 S:custom_window_title = 'Autisnautics II';

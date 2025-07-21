@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Breadcrumbs",
+    "description": "Duckborn spawn with a pile of delicious breadcrumbs.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "alexscaves:gingerbread_crumbs",
+        "amount": 1
+    }
+}

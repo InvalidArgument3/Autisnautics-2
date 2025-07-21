@@ -1678,11 +1678,6 @@
     "modId": "treechop",
     "version": "0.19.0"
   },
-  "unoriginal-datapack.jar": {
-    "jarName": "unoriginal-datapack.jar",
-    "modId": "unoriginal_mr",
-    "version": "1-datapack"
-  },
   "v_slab_compat-1.20-2.5.jar": {
     "jarName": "v_slab_compat-1.20-2.5.jar",
     "modId": "v_slab_compat",

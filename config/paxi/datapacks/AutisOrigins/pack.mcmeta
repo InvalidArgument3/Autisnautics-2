@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "AutisOrigins",
+        "id": "autisorigins",
+        "pack_format": 15,
+        "version": "1.2",
+        "authors": [
+            "me"
+        ],
+        "description": "autism"
+    }
+}

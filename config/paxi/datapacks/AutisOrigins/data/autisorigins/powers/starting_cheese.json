@@ -1,0 +1,9 @@
+{
+    "name": "Start Item: Cheese",
+    "description": "Rats always have one last piece of cheese stashed away.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "tconstruct:cheese_ingot",
+        "amount": 1
+    }
+}

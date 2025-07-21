@@ -3,33 +3,93 @@
 
 	[origins."origins:enderian"]
 		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
 
 	[origins."origins:arachnid"]
 		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
 
 	[origins."origins:human"]
 		enabled = true
 
 	[origins."origins:blazeborn"]
 		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
 
 	[origins."origins:avian"]
 		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
 
 	[origins."origins:feline"]
 		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
 
 	[origins."origins:elytrian"]
 		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
 
 	[origins."origins:shulk"]
 		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
 
 	[origins."origins:merling"]
 		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
 
 	[origins."origins:phantom"]
 		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
 
 	[origins."origins-plus-plus:land_shark"]
 		enabled = true
@@ -2039,4 +2099,82 @@
 	[origins."sullys_origins:aetherian/purple"]
 		enabled = true
 		"sullys_origins:aetherian_base/chromatic/at_fire_vision_purple" = true
+
+	[origins."autisorigins:cactoid"]
+		enabled = true
+		"autisorigins:thorns" = true
+		"autisorigins:flammable" = true
+		"autisorigins:catalyzing_glands" = true
+		"origins:more_exhaustion" = true
+		"autisorigins:starting_burger" = true
+
+	[origins."autisorigins:duckborn"]
+		enabled = true
+		"origins:water_vision" = true
+		"autisorigins:webbed_feet" = true
+		"origins:slow_falling" = true
+		"origins:lay_eggs" = true
+		"autisorigins:undead_hatred" = true
+		"autisorigins:starting_breadcrumbs" = true
+
+	[origins."autisorigins:khajiit"]
+		enabled = true
+		"autisorigins:fall_resistance" = true
+		"origins:sprint_jump" = true
+		"autisorigins:suthay" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+		"autisorigins:moon_sugar" = true
+		"autisorigins:starting_sugar" = true
+
+	[origins."autisorigins:rat"]
+		enabled = true
+		"autisorigins:bite-sized" = true
+		"autisorigins:nimble" = true
+		"origins:climbing" = true
+		"autisorigins:jockey" = true
+		"autisorigins:rat_teeth" = true
+		"autisorigins:cheesed_to_meet_you" = true
+		"autisorigins:starting_cheese" = true
+
+	[origins."autisorigins:hedgehog"]
+		enabled = true
+		"autisorigins:gotta_go_fast" = true
+		"autisorigins:spin_jump" = true
+		"autisorigins:water_damage" = true
+		"autisorigins:starting_pizza" = true
+
+	[origins."autisorigins:daemon"]
+		enabled = true
+		"autisorigins:daemon_mind" = true
+		"autisorigins:weak_flesh" = true
+		"autisorigins:danmaku_emulator" = true
+		"autisorigins:critique_subroutine" = true
+		"autisorigins:god_loves_elephants" = true
+		"autisorigins:starting_coffee" = true
+
+	[origins."autisorigins:haniwa"]
+		enabled = true
+		"autisorigins:ceramic_immunity" = true
+		"autisorigins:shatter_prone" = true
+		"autisorigins:clay_body" = true
+		"autisorigins:hanny_flash" = true
+		"autisorigins:starting_onigili" = true
+
+	[origins."autisorigins:autist"]
+		enabled = true
+		"autisorigins:starting_canned_food" = true
+
+	[origins."autisorigins:blobbian"]
+		enabled = true
+		"autisorigins:breathless" = true
+		"autisorigins:bouncy" = true
+		"autisorigins:brainless" = true
+		"autisorigins:slow" = true
+		"autisorigins:slimer" = true
+		"autisorigins:starting_gelatin" = true
+
+	[origins."autisorigins:accursed_one"]
+		enabled = true
+		"autisorigins:starting_cursed_ring" = true
 
