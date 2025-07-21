@@ -2126,6 +2126,7 @@
 		"origins:cat_vision" = true
 		"autisorigins:moon_sugar" = true
 		"autisorigins:starting_sugar" = true
+		"autisorigins:eye_of_night" = true
 
 	[origins."autisorigins:rat"]
 		enabled = true
