@@ -40,7 +40,7 @@ ServerEvents.tags("item", event => {
         .add(/exchangers:.*/)
         .add(/reliquary:.*/)
         .add(/waterstrainer:.*/)
-        .add("#occultism:miners/ores")
+        // .add("#occultism:miners/ores")
         .add("projectred_core:draw_plate")
         .add("projectred_core:multimeter")
 

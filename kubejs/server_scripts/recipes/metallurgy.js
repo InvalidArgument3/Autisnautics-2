@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
     // other metal unification
     event.replaceOutput({}, "#forge:ingots/silver", "thermal:silver_ingot")
     event.replaceOutput({}, "#forge:ingots/bronze", "thermal:bronze_ingot")
-    event.replaceOutput({ id:"occultism:crafting/silver_block"}, "#forge:storage_blocks/silver", "thermal:silver_block")
+    //event.replaceOutput({ id:"occultism:crafting/silver_block"}, "#forge:storage_blocks/silver", "thermal:silver_block")
 
     // Ore processing
     event.remove({ id: /thermal:machines\/smelter\/.*dust/ })
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
             { type: "minecraft:smelting", input: rawOreTag },
             { type: "minecraft:blasting", input: rawOreTag },
             { type: "create:crushing", input: rawOreTag },
-            { type: "occultism:crushing", input: rawOreTag },
+            //{ type: "occultism:crushing", input: rawOreTag },
             { type: "tconstruct:ore_melting", input: rawOreTag }
         ])
 
@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
             { type: "minecraft:smelting", input: oreTag },
             { type: "create:crushing", input: oreTag },
             { type: "create:milling", input: oreTag },
-            { type: "occultism:crushing", input: oreTag },
+            //{ type: "occultism:crushing", input: oreTag },
 
         ])
 
@@ -308,7 +308,7 @@ ServerEvents.recipes(event => {
             { type: "minecraft:smelting", input: crushedOreBlockTag },
             { type: "minecraft:blasting", input: crushedOreBlockTag },
             { type: "create:crushing", input: crushedOreBlockTag },
-            { type: "occultism:crushing", input: crushedOreBlockTag },
+            //{ type: "occultism:crushing", input: crushedOreBlockTag },
             { type: "tconstruct:ore_melting", input: crushedOreBlockTag }
         ])
 
@@ -319,7 +319,7 @@ ServerEvents.recipes(event => {
         // ore to crushed ore
         event.recipes.create.crushing([Item.of(crushedOre, 3), Item.of(crushedOre, 1).withChance(0.5), experience, stone], oreTag).id("kubejs:ore_processing/crushing/ore/" + materialName)
         event.recipes.thermal.pulverizer([Item.of(crushedOre).withChance(4.5), Item.of("minecraft:gravel").withChance(0.2)], oreTag, 0.2).id("kubejs:ore_processing/pulverizing/ore/" + materialName)
-        event.recipes.occultism.crushing(Item.of(dust, 3), Item.of(crushedOre), 200, -1, false).id(`kubejs:occultism/crushing/${materialName}`)
+        //event.recipes.occultism.crushing(Item.of(dust, 3), Item.of(crushedOre), 200, -1, false).id(`kubejs:occultism/crushing/${materialName}`)
 
         // crushed ore to nuggets
         event.smelting(Item.of(nugget, 3), crushedOre).id("kubejs:ore_processing/smelting/crushed/" + materialName)
@@ -378,7 +378,7 @@ ServerEvents.recipes(event => {
         { type: "minecraft:smelting", input: "#forge:raw_materials/silver" },
         { type: "minecraft:blasting", input: "#forge:raw_materials/silver" },
         { type: "create:crushing", input: "#forge:raw_materials/silver" },
-        { type: "occultism:crushing", input: "#forge:raw_materials/silver" },
+       // { type: "occultism:crushing", input: "#forge:raw_materials/silver" },
         { type: "tconstruct:ore_melting", input: "#forge:raw_materials/silver" }
     ])
     event.remove({ id: "thermal:machines/pulverizer/pulverizer_raw_silver"})

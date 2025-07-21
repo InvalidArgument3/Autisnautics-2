@@ -434,8 +434,8 @@ ServerEvents.recipes(event => {
 
     // - - - - - Chapter 2A - - - - -
     // Vine Transmutation
-    donutCraft(event, "minecraft:weeping_vines", "occultism:spirit_attuned_gem", "minecraft:twisting_vines")
-    donutCraft(event, "minecraft:twisting_vines", "occultism:spirit_attuned_gem", "minecraft:weeping_vines")
+    //donutCraft(event, "minecraft:weeping_vines", "occultism:spirit_attuned_gem", "minecraft:twisting_vines")
+    //donutCraft(event, "minecraft:twisting_vines", "occultism:spirit_attuned_gem", "minecraft:weeping_vines")
     // Liquid soul sand
     event.remove({ id: "tconstruct:smeltery/melting/soul/sand" })
     event.recipes.create.mixing(Fluid.of("tconstruct:liquid_soul", 500), ["minecraft:twisting_vines", "minecraft:weeping_vines"]).heated()
@@ -597,9 +597,9 @@ ServerEvents.recipes(event => {
     let fern1 = "kubejs:ender_slimy_fern_leaf"
     let fern2 = "kubejs:sky_slimy_fern_leaf"
     let fern3 = "kubejs:earth_slimy_fern_leaf"
-    event.shapeless(fern1, ["occultism:spirit_attuned_gem", fern2, fern2, fern2, fern2, fern3, fern3, fern3, fern3])
-    event.shapeless(fern2, ["occultism:spirit_attuned_gem", fern3, fern3, fern3, fern3, fern1, fern1, fern1, fern1])
-    event.shapeless(fern3, ["occultism:spirit_attuned_gem", fern2, fern2, fern2, fern2, fern1, fern1, fern1, fern1])
+    //event.shapeless(fern1, ["occultism:spirit_attuned_gem", fern2, fern2, fern2, fern2, fern3, fern3, fern3, fern3])
+    //event.shapeless(fern2, ["occultism:spirit_attuned_gem", fern3, fern3, fern3, fern3, fern1, fern1, fern1, fern1])
+    //event.shapeless(fern3, ["occultism:spirit_attuned_gem", fern2, fern2, fern2, fern2, fern1, fern1, fern1, fern1])
     // Fern Cutting
     let chop = (type, output) => {
         let fern = `tconstruct:${type}_slime_fern`
@@ -612,11 +612,11 @@ ServerEvents.recipes(event => {
             "result": [Item.of(leaf, 2)]
         }).id(`kubejs:cutting/${type}_slime_fern_leaf`)
         event.custom(ifiniDeploying(event, Item.of(leaf, 2), fern, "#forge:tools/knives")).id(`kubejs:deploying/${type}_slime_fern_leaf_using_deployer`)
-        event.custom({
-            "type": "occultism:spirit_fire",
-            "ingredient": { "item": leaf },
-            "result": { "item": fern }
-        })
+        // event.custom({
+        //     "type": "occultism:spirit_fire",
+        //     "ingredient": { "item": leaf },
+        //     "result": { "item": fern }
+        // })
         event.recipes.create.milling([paste], leaf)
         event.campfireCooking(output, paste).cookingTime(300)
     }
@@ -700,7 +700,7 @@ ServerEvents.recipes(event => {
     invarMachine(event, Item.of("thermal:dynamo_compression", 1), "thermal:rf_coil")
     invarMachine(event, Item.of("kubejs:pipe_module_tier_2", 4))
     // Disenchantment Upgrade
-    createMachine("thermal:dynamo_compression", event, Item.of("thermal:dynamo_disenchantment", 1), "occultism:spirit_attuned_gem")
+    //createMachine("thermal:dynamo_compression", event, Item.of("thermal:dynamo_disenchantment", 1), "occultism:spirit_attuned_gem")
     // Default thermal machine recipes are kept in.
     // Check older versions of the script to see commented out code for thermal machine crafting recipes
 

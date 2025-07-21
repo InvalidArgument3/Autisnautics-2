@@ -1,10 +1,10 @@
 ServerEvents.lowPriorityData(event => {
-    removeFeature(event, "minecraft:ore_redstone")
-    removeFeature(event, "minecraft:ore_redstone_lower")
+    // removeFeature(event, "minecraft:ore_redstone")
+    // removeFeature(event, "minecraft:ore_redstone_lower")
 
-    removeFeature(event, "occultism:ore_silver")
-    removeFeature(event, "occultism:ore_silver_deepslate")
-    removeFeature(event, "occultism:ore_silver_deepslate")
+    // removeFeature(event, "occultism:ore_silver")
+    // removeFeature(event, "occultism:ore_silver_deepslate")
+    // removeFeature(event, "occultism:ore_silver_deepslate")
     // It's possible to disable these in the config, but using configs for oregen is outdated and the way Thermal addons' oregens work are very strange
     removeFeature(event, "thermal:tin_ore")
     removeFeature(event, "thermal:silver_ore")
