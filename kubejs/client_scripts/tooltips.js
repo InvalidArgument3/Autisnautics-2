@@ -74,15 +74,15 @@ ItemEvents.tooltip(tooltip => {
         }
     });
 
-    tooltip.addAdvanced(["occultism:spirit_fire"], (item, adv, text) => {
-        if (!tooltip.shift) {
-            text.add(1, Text.translatable("item.kubejs.shift.summary"));
-        } else {
-            text.add(1, Text.translatable("item.kubejs.shift.summary"));
-            text.add(2, Text.translatable("item.spirit_fire.info"));
-            text.add(3, Text.translatable("item.spirit_fire.creation"));
-        }
-    });
+    // tooltip.addAdvanced(["occultism:spirit_fire"], (item, adv, text) => {
+    //     if (!tooltip.shift) {
+    //         text.add(1, Text.translatable("item.kubejs.shift.summary"));
+    //     } else {
+    //         text.add(1, Text.translatable("item.kubejs.shift.summary"));
+    //         text.add(2, Text.translatable("item.spirit_fire.info"));
+    //         text.add(3, Text.translatable("item.spirit_fire.creation"));
+    //     }
+    // });
 
     tooltip.add("trials:crafter", Text.red(Text.translatable("cabin.trials.crafter.deprecation.tooltip")))
 });
