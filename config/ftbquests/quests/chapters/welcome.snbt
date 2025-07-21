@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:orange_tulip"
+	id: "2EE5FBD9BD7C0265"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cabin.quest.09356B3BEF298E06.description1}"
+				""
+				"{cabin.quest.09356B3BEF298E06.description2}"
+				""
+			]
+			disable_toast: true
+			icon: "minecraft:deepslate_gold_ore"
+			id: "09356B3BEF298E06"
+			rewards: [
+				{
+					id: "732AA66A91BA5C2B"
+					item: "minecraft:orange_tulip"
+					type: "item"
+				}
+				{
+					id: "1EE277823ACFB886"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "7670232EEE67FE29"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.09356B3BEF298E06.title}"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09356B3BEF298E06"]
+			description: [
+				"{cabin.quest.69D55492A8F42A94.description1}"
+				""
+				"{cabin.quest.69D55492A8F42A94.description2}"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:grass_block"
+			id: "69D55492A8F42A94"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0680791525813778"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.69D55492A8F42A94.title}"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69D55492A8F42A94"]
+			description: [
+				"{cabin.quest.407236D2B1D2257D.description1}"
+				"{cabin.quest.407236D2B1D2257D.description2}"
+				"{cabin.quest.407236D2B1D2257D.description3}"
+			]
+			disable_toast: true
+			icon: "create:cogwheel"
+			id: "407236D2B1D2257D"
+			rewards: [{
+				id: "3D4250D2B4800C1C"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "71C8186F3C7861F2"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.407236D2B1D2257D.title}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["407236D2B1D2257D"]
+			description: [
+				"{cabin.quest.2C7ADB6C11B918B1.description1}"
+				""
+				"{cabin.quest.2C7ADB6C11B918B1.description2}"
+			]
+			disable_toast: true
+			icon: "create:large_cogwheel"
+			id: "2C7ADB6C11B918B1"
+			rewards: [{
+				id: "1BF6428DE53BC0FF"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "36AF6DA4FFED8DC2"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.2C7ADB6C11B918B1.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C7ADB6C11B918B1"]
+			description: [
+				"{cabin.quest.1947C6CE179EBAC6.description1}"
+				""
+				"{cabin.quest.1947C6CE179EBAC6.description2}"
+			]
+			disable_toast: true
+			icon: "kubejs:andesite_machine"
+			id: "1947C6CE179EBAC6"
+			rewards: [{
+				id: "4000DE1B90DA84CE"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "235CD0501F0E807C"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.1947C6CE179EBAC6.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1947C6CE179EBAC6"]
+			description: [
+				"{cabin.quest.58E38BA6D927409F.description1}"
+				""
+				"{cabin.quest.58E38BA6D927409F.description2}"
+				""
+				"{cabin.quest.58E38BA6D927409F.description3}"
+				""
+				"{cabin.quest.58E38BA6D927409F.description4}"
+			]
+			disable_toast: true
+			icon: "thermal:machine_press"
+			id: "58E38BA6D927409F"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "583C35BA7A7B9004"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3A69DCA5AB7A36F2"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.58E38BA6D927409F.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58E38BA6D927409F"]
+			description: [
+				"{cabin.quest.00003FCBB33E62C4.description1}"
+				"{cabin.quest.00003FCBB33E62C4.description2}"
+				""
+				"{cabin.quest.00003FCBB33E62C4.description3}"
+				""
+				"{cabin.quest.00003FCBB33E62C4.description4}"
+				""
+				"{cabin.quest.00003FCBB33E62C4.description5}"
+				""
+				"{cabin.quest.00003FCBB33E62C4.description6}"
+				""
+				"{cabin.quest.00003FCBB33E62C4.description7}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				tag: {
+					spiritName: "Marredaeus"
+				}
+			}
+			id: "00003FCBB33E62C4"
+			rewards: [{
+				id: "67E25D801A479C56"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "181383A364ECB6F1"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.00003FCBB33E62C4.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00003FCBB33E62C4"]
+			description: ["{cabin.quest.31EDFA6D2FF86CB0.description1}"]
+			disable_toast: true
+			icon: "minecraft:gold_block"
+			id: "31EDFA6D2FF86CB0"
+			rewards: [{
+				id: "27FC36C810ADB897"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "422CD0E2E5F2F158"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.31EDFA6D2FF86CB0.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "{cabin.chapter.2EE5FBD9BD7C0265.title}"
+}

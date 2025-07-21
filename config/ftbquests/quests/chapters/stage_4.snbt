@@ -1,0 +1,833 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_4"
+	group: "331B6409EF6A7840"
+	icon: "ae2:controller"
+	id: "2FDA7DFC0C684E58"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["74CFD83C501C4952"]
+			description: [
+				"{cabin.quest.4B80A801A5BE4A01.description1}"
+				""
+				"{cabin.quest.4B80A801A5BE4A01.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "kubejs:inductive_mechanism"
+			id: "4B80A801A5BE4A01"
+			rewards: [{
+				id: "01697377D270DD3C"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0C162B64EE377FC8"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.4B80A801A5BE4A01.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1BF8F3CC8BEBB620"
+				"71D90A1E5D53FC0A"
+			]
+			description: ["{cabin.quest.6824055533465010.description1}"]
+			icon: "kubejs:calculation_mechanism"
+			id: "6824055533465010"
+			subtitle: "{cabin.quest.6824055533465010.subtitle}"
+			tasks: [
+				{
+					id: "34B7E632F7FD83DB"
+					item: "kubejs:calculation_mechanism"
+					type: "item"
+				}
+				{
+					id: "48B114D2C0F51F6D"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.6824055533465010.title}"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6824055533465010"]
+			description: [
+				"{cabin.quest.28DAED70768C6A50.description1}"
+				""
+				"{cabin.quest.28DAED70768C6A50.description2}"
+				""
+				"{cabin.quest.28DAED70768C6A50.description3}"
+			]
+			id: "28DAED70768C6A50"
+			rewards: [
+				{
+					count: 16
+					id: "40B14407CE6BAB56"
+					item: "kubejs:calculation_mechanism"
+					type: "item"
+				}
+				{
+					id: "1825E20FFD3BEBFF"
+					item: "ae2:fluix_crystal"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3FD881040347300A"
+					item: "thermal:lead_plate"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					command: "/tellraw @p {\"text\":\"\\u00A79Link to AE2 Guide\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=u0ouTWgdcXk\"}}"
+					icon: "ftbquests:book"
+					id: "0BFFA00BD71FC785"
+					title: "{cabin.reward.0BFFA00BD71FC785}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3E607053D3B0C552"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "{cabin.quest.28DAED70768C6A50.title}"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: ["{cabin.quest.22202C87352242D6.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:sand"
+			id: "22202C87352242D6"
+			subtitle: "{cabin.quest.22202C87352242D6.subtitle}"
+			tasks: [
+				{
+					id: "54D2F2F87424AB45"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "58353DEAB0670141"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.22202C87352242D6.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22202C87352242D6"]
+			description: [
+				"{cabin.quest.42F1A649D86DB86D.description1}"
+				""
+				"{cabin.quest.42F1A649D86DB86D.description2}"
+			]
+			icon: "kubejs:sand_ball"
+			id: "42F1A649D86DB86D"
+			subtitle: "{cabin.quest.42F1A649D86DB86D.subtitle}"
+			tasks: [
+				{
+					id: "05FFE255DDB4E66F"
+					item: "kubejs:sand_ball"
+					type: "item"
+				}
+				{
+					id: "36183F0BBDAA8DB8"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.42F1A649D86DB86D.title}"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42F1A649D86DB86D"]
+			description: ["{cabin.quest.4412F3B2827606E4.description1}"]
+			icon: "kubejs:fine_sand_bucket"
+			id: "4412F3B2827606E4"
+			shape: "circle"
+			tasks: [{
+				id: "5C23F9DBF4F2F484"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.4412F3B2827606E4.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42F1A649D86DB86D"]
+			description: ["{cabin.quest.0F5AA5DF001DCDF5.description1}"]
+			icon: "kubejs:rough_sand"
+			id: "0F5AA5DF001DCDF5"
+			subtitle: "{cabin.quest.0F5AA5DF001DCDF5.subtitle}"
+			tasks: [
+				{
+					id: "006110328A2D022F"
+					item: "kubejs:rough_sand"
+					type: "item"
+				}
+				{
+					id: "589AB5A61CD95E2F"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.0F5AA5DF001DCDF5.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"60A8B4C736CE3226"
+				"0F5AA5DF001DCDF5"
+			]
+			description: ["{cabin.quest.343050A40A3AB1F0.description1}"]
+			icon: "kubejs:purified_sand"
+			id: "343050A40A3AB1F0"
+			subtitle: "{cabin.quest.343050A40A3AB1F0.subtitle}"
+			tasks: [
+				{
+					id: "76715E399222E329"
+					item: "kubejs:purified_sand"
+					type: "item"
+				}
+				{
+					id: "2BE9DD7F346679E2"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.343050A40A3AB1F0.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46820FBDDDEE491E"]
+			description: ["{cabin.quest.3249CD08992F2BCD.description1}"]
+			icon: "minecraft:charcoal"
+			id: "3249CD08992F2BCD"
+			subtitle: "{cabin.quest.3249CD08992F2BCD.subtitle}"
+			tasks: [
+				{
+					id: "700F644CCBEBCA5A"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "760709B05A0FEF11"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.3249CD08992F2BCD.title}"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3249CD08992F2BCD"]
+			description: ["{cabin.quest.1A383F96B312D1B8.description1}"]
+			icon: "thermal:coal_coke"
+			id: "1A383F96B312D1B8"
+			subtitle: "{cabin.quest.1A383F96B312D1B8.subtitle}"
+			tasks: [
+				{
+					id: "7AFFEF4014CE671C"
+					item: "thermal:coal_coke"
+					type: "item"
+				}
+				{
+					id: "4960B920CCF3C186"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.1A383F96B312D1B8.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A383F96B312D1B8"]
+			description: ["{cabin.quest.16F920C2AF2FA2E0.description1}"]
+			icon: "kubejs:coke_chunk"
+			id: "16F920C2AF2FA2E0"
+			subtitle: "{cabin.quest.16F920C2AF2FA2E0.subtitle}"
+			tasks: [
+				{
+					id: "36A367A143AD6175"
+					item: "kubejs:coke_chunk"
+					type: "item"
+				}
+				{
+					id: "44D36B403AA26E97"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.16F920C2AF2FA2E0.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"343050A40A3AB1F0"
+				"4412F3B2827606E4"
+				"16F920C2AF2FA2E0"
+			]
+			description: ["{cabin.quest.2268AFAF6E9AB5E2.description1}"]
+			icon: "kubejs:silicon_compound"
+			id: "2268AFAF6E9AB5E2"
+			subtitle: "{cabin.quest.2268AFAF6E9AB5E2.subtitle}"
+			tasks: [
+				{
+					id: "7824435744C12C18"
+					item: "kubejs:silicon_compound"
+					type: "item"
+				}
+				{
+					id: "2F239D4D9BB9B47A"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.2268AFAF6E9AB5E2.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5799B4124EE20DB1"]
+			description: ["{cabin.quest.60A8B4C736CE3226.description1}"]
+			icon: "thermal:earth_charge"
+			id: "60A8B4C736CE3226"
+			subtitle: "{cabin.quest.60A8B4C736CE3226.subtitle}"
+			tasks: [
+				{
+					id: "2C3C495C9B18005A"
+					item: "thermal:earth_charge"
+					type: "item"
+				}
+				{
+					id: "21545C0F55D9D8C8"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.60A8B4C736CE3226.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C4CB8F616A9C3DF"]
+			description: ["{cabin.quest.5799B4124EE20DB1.description1}"]
+			icon: "thermal:basalz_powder"
+			id: "5799B4124EE20DB1"
+			subtitle: "{cabin.quest.5799B4124EE20DB1.subtitle}"
+			tasks: [
+				{
+					id: "54F29099D9D81837"
+					item: "thermal:basalz_powder"
+					type: "item"
+				}
+				{
+					id: "05969082F437FCA9"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.5799B4124EE20DB1.title}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B602ED47A0195A4"]
+			description: [
+				"{cabin.quest.6C4CB8F616A9C3DF.description1}"
+				""
+				"{cabin.quest.6C4CB8F616A9C3DF.description2}"
+			]
+			icon: "thermal:basalz_rod"
+			id: "6C4CB8F616A9C3DF"
+			subtitle: "{cabin.quest.6C4CB8F616A9C3DF.subtitle}"
+			tasks: [
+				{
+					id: "712E7C4EEB4BCF55"
+					item: "thermal:basalz_rod"
+					type: "item"
+				}
+				{
+					id: "7DF47F688E5C795C"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.6C4CB8F616A9C3DF.title}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: ["{cabin.quest.0B602ED47A0195A4.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:basalt"
+			id: "0B602ED47A0195A4"
+			subtitle: "{cabin.quest.0B602ED47A0195A4.subtitle}"
+			tasks: [
+				{
+					id: "4649973A51C977D9"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+				{
+					id: "738E569981496B56"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.0B602ED47A0195A4.title}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B602ED47A0195A4"]
+			description: [
+				"{cabin.quest.58B534C4AEB4139D.description1}"
+				""
+				"{cabin.quest.58B534C4AEB4139D.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "thermal:flux_magnet"
+				tag: { }
+			}
+			id: "58B534C4AEB4139D"
+			subtitle: "{cabin.quest.58B534C4AEB4139D.subtitle}"
+			tasks: [
+				{
+					id: "7538F2E8CFAF69F6"
+					item: {
+						Count: 1
+						id: "thermal:flux_magnet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "11A074DF1CA99AD3"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.58B534C4AEB4139D.title}"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: ["{cabin.quest.4B34B52092BA32BE.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:snowball"
+			id: "4B34B52092BA32BE"
+			subtitle: "{cabin.quest.4B34B52092BA32BE.subtitle}"
+			tasks: [
+				{
+					id: "56F4F1F21FE5FB17"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "193D8F8FEC7F864B"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4B34B52092BA32BE.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B34B52092BA32BE"]
+			description: [
+				"{cabin.quest.6D1519B746E032FB.description1}"
+				""
+				"{cabin.quest.6D1519B746E032FB.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:entropy_manipulator"
+				tag: { }
+			}
+			id: "6D1519B746E032FB"
+			subtitle: "{cabin.quest.6D1519B746E032FB.subtitle}"
+			tasks: [
+				{
+					id: "641183133CA49CCA"
+					item: {
+						Count: 1
+						id: "ae2:entropy_manipulator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49EAB67814570219"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.6D1519B746E032FB.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B34B52092BA32BE"]
+			description: [
+				"{cabin.quest.0AE7FAEBD5F86D9C.description1}"
+				""
+				"{cabin.quest.0AE7FAEBD5F86D9C.description2}"
+			]
+			icon: "thermal:blizz_rod"
+			id: "0AE7FAEBD5F86D9C"
+			subtitle: "{cabin.quest.0AE7FAEBD5F86D9C.subtitle}"
+			tasks: [
+				{
+					id: "11B1248ECFCD2F26"
+					item: "thermal:blizz_rod"
+					type: "item"
+				}
+				{
+					id: "518D5675C9D1757D"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.0AE7FAEBD5F86D9C.title}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0AE7FAEBD5F86D9C"]
+			description: ["{cabin.quest.01B0A6236A5073D1.description1}"]
+			icon: "thermal:blizz_powder"
+			id: "01B0A6236A5073D1"
+			subtitle: "{cabin.quest.01B0A6236A5073D1.subtitle}"
+			tasks: [
+				{
+					id: "7EA6D73F7A49EBAF"
+					item: "thermal:blizz_powder"
+					type: "item"
+				}
+				{
+					id: "5CA556BB4614DD06"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.01B0A6236A5073D1.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01B0A6236A5073D1"]
+			description: ["{cabin.quest.4732465116D723EE.description1}"]
+			icon: "thermal:ice_charge"
+			id: "4732465116D723EE"
+			subtitle: "{cabin.quest.4732465116D723EE.subtitle}"
+			tasks: [
+				{
+					id: "3DFF735C19CE82A5"
+					item: "thermal:ice_charge"
+					type: "item"
+				}
+				{
+					id: "220B89A9B897FA67"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4732465116D723EE.title}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2268AFAF6E9AB5E2"
+				"4732465116D723EE"
+			]
+			description: ["{cabin.quest.067C5FDA4709F195.description1}"]
+			icon: "ae2:silicon"
+			id: "067C5FDA4709F195"
+			subtitle: "{cabin.quest.067C5FDA4709F195.subtitle}"
+			tasks: [
+				{
+					id: "263459FBEC9F9868"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "57D267DD10A22D32"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.067C5FDA4709F195.title}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"067C5FDA4709F195"
+				"4B19B6EAD511378D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{cabin.quest.71D90A1E5D53FC0A.description1}"]
+			icon: "ae2:printed_silicon"
+			id: "71D90A1E5D53FC0A"
+			subtitle: "{cabin.quest.71D90A1E5D53FC0A.subtitle}"
+			tasks: [
+				{
+					id: "12C1BB8D09D664B4"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "20B36555F58C4DB1"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.71D90A1E5D53FC0A.title}"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B431AAADE8845FA"]
+			description: ["{cabin.quest.0CE88FEA070DC46C.description1}"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "kubejs:substrate_silicon"
+			id: "0CE88FEA070DC46C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				icon: "kubejs:substrate_chaos"
+				id: "5B4F2E2F7BDEA6A0"
+				stat: "minecraft:play_time"
+				title: "{cabin.task.5B4F2E2F7BDEA6A0}"
+				type: "stat"
+				value: 1
+			}]
+			title: "{cabin.quest.0CE88FEA070DC46C.title}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: [
+				"{cabin.quest.6D26DAB7D0FF6E90.description1}"
+				""
+				"{cabin.quest.6D26DAB7D0FF6E90.description2}"
+				""
+				"{cabin.quest.1D1D1FEAF49C5E11.description3}"
+				""
+				"{cabin.quest.1D1D1FEAF49C5E11.description4}"
+				""
+			]
+			icon: "kubejs:alchemical_laser"
+			id: "6D26DAB7D0FF6E90"
+			rewards: [{
+				command: "/ponder kubejs:alchemical_laser"
+				icon: {
+					Count: 1
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					tag: {
+						spiritName: "Rayarces"
+					}
+				}
+				id: "14F213F493035F9B"
+				title: "{cabin.reward.14F213F493035F9B}"
+				type: "command"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "16897A4EF323B02E"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.1D1D1FEAF49C5E11.title}"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: ["{cabin.quest.46820FBDDDEE491E.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "46820FBDDDEE491E"
+			shape: "square"
+			subtitle: "{cabin.quest.46820FBDDDEE491E.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "0AA0DEB1A87DA675"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "{cabin.task.0AA0DEB1A87DA675}"
+					type: "item"
+				}
+				{
+					id: "72BA1D3BD545CBE6"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.46820FBDDDEE491E.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71D90A1E5D53FC0A"]
+			description: [
+				"{cabin.quest.1BF8F3CC8BEBB620.description1}"
+				"{cabin.quest.1BF8F3CC8BEBB620.description2}"
+			]
+			hide_dependency_lines: true
+			id: "1BF8F3CC8BEBB620"
+			shape: "circle"
+			tasks: [{
+				id: "1CC8A01100CE4AE3"
+				item: {
+					Count: 1
+					id: "kubejs:flash_drive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.1BF8F3CC8BEBB620.title}"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0CE88FEA070DC46C"]
+			description: ["{cabin.quest.4B19B6EAD511378D.description1}"]
+			icon: "ae2:silicon"
+			id: "4B19B6EAD511378D"
+			subtitle: "{cabin.quest.4B19B6EAD511378D.subtitle}"
+			tasks: [
+				{
+					id: "6FCB9E7E2CC10348"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "0A4B691EF3CDC7A0"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4B19B6EAD511378D.title}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3249CD08992F2BCD"]
+			description: ["{cabin.quest.33674138F4866C18.description1}"]
+			icon: "thermal:creosote_bucket"
+			id: "33674138F4866C18"
+			shape: "circle"
+			tasks: [{
+				id: "224ACB0727C6F84E"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.33674138F4866C18.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28DAED70768C6A50"]
+			description: ["{cabin.quest.24C48CFAAD71B230.description1}"]
+			id: "24C48CFAAD71B230"
+			subtitle: "{cabin.quest.24C48CFAAD71B230.subtitle}"
+			tasks: [
+				{
+					id: "10D5C1E5071B1B53"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "32F50DF8BD6E3927"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "2E5AD5026FDB28CB"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.24C48CFAAD71B230.title}"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24C48CFAAD71B230"]
+			description: ["{cabin.quest.2B8F1D804107EB8C.description1}"]
+			id: "2B8F1D804107EB8C"
+			subtitle: "{cabin.quest.2B8F1D804107EB8C.subtitle}"
+			tasks: [
+				{
+					id: "186FEC9FE047828F"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "2DCA8F3CB7884170"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "75950A3A22C9DC8E"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.2B8F1D804107EB8C.title}"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B80A801A5BE4A01"]
+			description: ["{cabin.quest.13B197C90F9812C8.description1}"]
+			icon: "thermal:dynamo_magmatic"
+			id: "13B197C90F9812C8"
+			shape: "circle"
+			tasks: [{
+				id: "4C687EF00A44ED1E"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.13B197C90F9812C8.title}"
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "{cabin.chapter.2FDA7DFC0C684E58.title}"
+}

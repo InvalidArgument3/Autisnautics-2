@@ -18,7 +18,7 @@ on:
           - "Release"
           - "Beta"
           - "Alpha"
-        default: "Beta"
+        default: "Alpha"
       draft:
         description: "Draft GitHub release (CF release will always be normal)"
         type: boolean
@@ -44,7 +44,7 @@ on:
       skip_cf_release:
         description: "Skip CurseForge release"
         type: boolean
-        default: false
+        default: true
         required: false
 
 permissions: {}

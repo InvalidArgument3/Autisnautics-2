@@ -1,0 +1,816 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lifesavers"
+	group: "3BE4B4DE6A6F6C40"
+	icon: "minecraft:totem_of_undying"
+	id: "0D0BC5B3F6623669"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cabin.quest.1127129CBA2B5E6F.description1}"
+				""
+				"{cabin.quest.1127129CBA2B5E6F.description2}"
+				""
+				"{cabin.quest.1127129CBA2B5E6F.description3}"
+			]
+			icon: "projectred_illumination:red_inverted_fixture_light"
+			id: "1127129CBA2B5E6F"
+			rewards: [{
+				id: "66E867F9537437F1"
+				item: "projectred_core:red_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19CF5DA7A8547E17"
+					item: "projectred_core:platformed_plate"
+					type: "item"
+				}
+				{
+					id: "457F0290A225EEA9"
+					item: "projectred_transmission:red_alloy_wire"
+					type: "item"
+				}
+				{
+					id: "17B93B8634BC1C2D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "projectred_core:illumars"
+						}
+					}
+					title: "{cabin.task.17B93B8634BC1C2D}"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.1127129CBA2B5E6F.title}"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: ["{cabin.quest.26C39961F2E2ABF2.description1}"]
+			id: "26C39961F2E2ABF2"
+			rewards: [{
+				id: "2AC846CB2DF485C8"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:blue_toolbox"
+				id: "5E687A6CBD96D0EF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+				title: "{cabin.task.5E687A6CBD96D0EF}"
+				type: "item"
+			}]
+			title: "{cabin.quest.26C39961F2E2ABF2.title}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{cabin.quest.0B8816319F81C12A.description1}"
+				""
+				"{cabin.quest.0B8816319F81C12A.description2}"
+			]
+			icon: "supplementaries:bubble_block"
+			id: "0B8816319F81C12A"
+			rewards: [{
+				id: "7488D3D81C7FAC51"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "supplementaries:stasis"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "180D1CB1BB7EB0AA"
+				item: {
+					Count: 1
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 250
+					}
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.0B8816319F81C12A.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["{cabin.quest.382EBC32AC27C839.description1}"]
+			id: "382EBC32AC27C839"
+			rewards: [{
+				id: "7CA19E24D6A5BF46"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31FE3FAF6909CB19"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.382EBC32AC27C839.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{cabin.quest.0E4476BA80B316F6.description1}"]
+			id: "0E4476BA80B316F6"
+			rewards: [{
+				id: "02BA7C4E293DD955"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F2D3B586A81A2B"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "{cabin.quest.0E4476BA80B316F6.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["{cabin.quest.6D7D504E9DC22590.description1}"]
+			id: "6D7D504E9DC22590"
+			rewards: [{
+				id: "12B2F2F9A6A257FE"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BE0CCD6F383D961"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "exchangers:end_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:leadstone_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:hardened_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:reinforced_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:signalum_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:resonant_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:tuberous_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:creative_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:wooden_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:stone_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:golden_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:iron_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:diamond_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "exchangers:emerald_exchanger"
+								tag: {
+									Damage: 0
+									blockstate: {
+										Name: "minecraft:air"
+									}
+									directionalPlacement: 0b
+									forceDropItems: 0b
+									fuzzyPlacement: 0b
+									fuzzyPlacementChance: 100
+									mode: 0
+									range: 0
+									voidItems: 0b
+								}
+							}
+						]
+					}
+				}
+				title: "{cabin.task.4BE0CCD6F383D961}"
+				type: "item"
+			}]
+			title: "{cabin.quest.6D7D504E9DC22590.title}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{cabin.quest.2F469F6F1511D9C4.description1}"
+				""
+				"{cabin.quest.2F469F6F1511D9C4.description2}"
+			]
+			id: "2F469F6F1511D9C4"
+			rewards: [{
+				count: 16
+				id: "5B7C253D05152423"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "039DD9EBD46B2C23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "{cabin.task.039DD9EBD46B2C23}"
+				type: "item"
+			}]
+			title: "{cabin.quest.2F469F6F1511D9C4.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["{cabin.quest.7061F42CF050ADCA.description1}"]
+			id: "7061F42CF050ADCA"
+			rewards: [{
+				count: 8
+				id: "40E5D8DBF58086BB"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0710C744349D2090"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.7061F42CF050ADCA.title}"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["{cabin.quest.45E7810E21F6F9AE.description1}"]
+			id: "45E7810E21F6F9AE"
+			rewards: [{
+				id: "482338485BF4B3B0"
+				item: "biomesoplenty:spanish_moss"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AD38BD1318A493B"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["{cabin.quest.50E2D6459F3D68C0.description1}"]
+			id: "50E2D6459F3D68C0"
+			rewards: [{
+				id: "390AF1049C411219"
+				item: "minecraft:barrel"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "33523F8FED81A922"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			title: "{cabin.quest.50E2D6459F3D68C0.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: ["{cabin.quest.09EB29F838620371.description1}"]
+			id: "09EB29F838620371"
+			rewards: [{
+				id: "7AF62EF3656DD4E3"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103E6982FCFE8B6C"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "{cabin.quest.09EB29F838620371.title}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{cabin.quest.6D900619B1967D72.description1}"
+				""
+				"{cabin.quest.6D900619B1967D72.description2}"
+			]
+			id: "6D900619B1967D72"
+			rewards: [{
+				id: "47ADAFAB537F63CE"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			tasks: [{
+				id: "006D992D77A782EF"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "{cabin.quest.6D900619B1967D72.title}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{cabin.quest.334146C815B304DB.description1}"
+				""
+				"{cabin.quest.334146C815B304DB.description2}"
+			]
+			id: "334146C815B304DB"
+			rewards: [{
+				id: "35445550FFC9B565"
+				item: "kubejs:pipe_module_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "461F9FF1732B308F"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			title: "{cabin.quest.334146C815B304DB.title}"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{cabin.quest.6BC864CC7CB2C316.description1}"
+				""
+				"{cabin.quest.6BC864CC7CB2C316.description2}"
+			]
+			id: "6BC864CC7CB2C316"
+			rewards: [{
+				id: "5EA5B33DA2E47592"
+				item: "thermal:signalum_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "4912723B6A264380"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			title: "{cabin.quest.6BC864CC7CB2C316.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{cabin.quest.1DBFD0B34659A8F9.description1}"]
+			id: "1DBFD0B34659A8F9"
+			rewards: [{
+				id: "7BD14F5479FAB194"
+				item: "minecraft:skeleton_skull"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E13E85803FA5DA"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "{cabin.quest.1DBFD0B34659A8F9.title}"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["{cabin.quest.087659F192F41C6E.description1}"]
+			icon: "tconstruct:crafting_station"
+			id: "087659F192F41C6E"
+			rewards: [{
+				id: "4ECA141D5EE15954"
+				item: "minecraft:chest"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA7ADFA433D850D"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			title: "{cabin.quest.087659F192F41C6E.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["{cabin.quest.0F4B0608CBF966E6.description1}"]
+			icon: "create:chain_conveyor"
+			id: "0F4B0608CBF966E6"
+			rewards: [{
+				count: 16
+				id: "28A2E7AC0A54F50B"
+				item: "minecraft:chain"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "63664BFD05DDCABE"
+					item: { Count: 2, id: "create:chain_conveyor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0149C713E94864F3"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.0F4B0608CBF966E6.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{cabin.quest.661807F8ED723EEB.description1}"
+				""
+				"{cabin.quest.661807F8ED723EEB.description2}"
+			]
+			id: "661807F8ED723EEB"
+			rewards: [{
+				id: "1186F7D43411D62D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A12D108D1E18AA"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{cabin.quest.1DD2802F5611D419.description1}"
+				""
+				"{cabin.quest.1DD2802F5611D419.description2}"
+			]
+			id: "1DD2802F5611D419"
+			rewards: [{
+				id: "3A35387B6A431842"
+				item: "kubejs:attachment_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09FD6301B7CF206E"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			title: "{cabin.quest.1DD2802F5611D419.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: ["{cabin.quest.4B1017D1C176412F.description1}"]
+			id: "4B1017D1C176412F"
+			rewards: [{
+				id: "07C632B31F279953"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58BCE29D7C42428F"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			description: ["{cabin.quest.374933A06E016CE9.description1}"]
+			icon: "computercraft:computer_normal"
+			id: "374933A06E016CE9"
+			rewards: [{
+				count: 16
+				id: "071BEECB37AFECB4"
+				item: "projectred_core:red_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42002EEA26A72016"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "computercraft:computer_normal"
+							}
+							{
+								Count: 1b
+								id: "computercraft:computer_advanced"
+							}
+						]
+					}
+				}
+				title: "{cabin.task.42002EEA26A72016}"
+				type: "item"
+			}]
+			title: "{cabin.quest.374933A06E016CE9.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{cabin.quest.78A8751AF86E0E32.description1}"
+				""
+				"{cabin.quest.78A8751AF86E0E32.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "rechiseled:chisel"
+				tag: { }
+			}
+			id: "78A8751AF86E0E32"
+			rewards: [{
+				count: 16
+				id: "65589D633E5A9F73"
+				item: "rechiseled:cobblestone_stripes_connecting"
+				type: "item"
+			}]
+			tasks: [{
+				id: "728C7440719BF00D"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.78A8751AF86E0E32.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "{cabin.chapter.0D0BC5B3F6623669.title}"
+}

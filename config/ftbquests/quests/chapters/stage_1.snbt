@@ -1,0 +1,744 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage_1"
+	group: "331B6409EF6A7840"
+	icon: "kubejs:andesite_machine"
+	id: "45AEDCD3B795E95A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5799D55BB26BA52C"]
+			description: [
+				"{cabin.quest.2CB570195DA7E106.description1}"
+				""
+				"{cabin.quest.2CB570195DA7E106.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "2CB570195DA7E106"
+			shape: "square"
+			subtitle: "{cabin.quest.2CB570195DA7E106.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					icon: "minecraft:oak_log"
+					id: "58AB6E0FF2EA6AD4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "{cabin.task.0AA0DEB1A87DA675}"
+					type: "item"
+				}
+				{
+					id: "0842082756DA73FE"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.2CB570195DA7E106.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5799D55BB26BA52C"]
+			description: [
+				"{cabin.quest.608BF7BE3CB666F3.description1}"
+				""
+				"{cabin.quest.608BF7BE3CB666F3.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:kelp"
+			id: "608BF7BE3CB666F3"
+			subtitle: "{cabin.quest.608BF7BE3CB666F3.subtitle}"
+			tasks: [
+				{
+					id: "247A58659E47A4D8"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "0631FA27CEE5D67D"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.608BF7BE3CB666F3.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5799D55BB26BA52C"]
+			description: ["{cabin.quest.4CC420A6B673176A.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:sand"
+			id: "4CC420A6B673176A"
+			subtitle: "{cabin.quest.4CC420A6B673176A.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:sand"
+					id: "72FE446F5BB1A93E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "biomesoplenty:white_sand"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sand"
+								}
+								{
+									Count: 1b
+									id: "biomesoplenty:orange_sand"
+								}
+							]
+						}
+					}
+					title: "{cabin.task.72FE446F5BB1A93E}"
+					type: "item"
+				}
+				{
+					id: "4208FAAC229CACA6"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4CC420A6B673176A.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5799D55BB26BA52C"]
+			description: [
+				"{cabin.quest.106C6DFDCB97327C.description1}"
+				""
+				"{cabin.quest.106C6DFDCB97327C.description2}"
+				"{cabin.quest.106C6DFDCB97327C.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:andesite"
+			id: "106C6DFDCB97327C"
+			subtitle: "{cabin.quest.106C6DFDCB97327C.subtitle}"
+			tasks: [
+				{
+					id: "5E14AA73F8E1AFE4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "29B78BB983BE39FC"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.106C6DFDCB97327C.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["106C6DFDCB97327C"]
+			description: ["{cabin.quest.6B7F0631060A9E62.description1}"]
+			icon: "create:rope_pulley"
+			id: "6B7F0631060A9E62"
+			shape: "circle"
+			subtitle: "{cabin.quest.6B7F0631060A9E62.subtitle}"
+			tasks: [{
+				id: "0C764FDD555E8CCD"
+				title: "{cabin.task.0842082756DA73FE}"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.6B7F0631060A9E62.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CC420A6B673176A"]
+			description: ["{cabin.quest.729FB5DD07C234E8.description1}"]
+			icon: "minecraft:clay_ball"
+			id: "729FB5DD07C234E8"
+			subtitle: "{cabin.quest.729FB5DD07C234E8.subtitle}"
+			tasks: [
+				{
+					id: "714FE76FE8D62EBF"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "02EE2F24FDF534BC"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.729FB5DD07C234E8.title}"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"729FB5DD07C234E8"
+				"608BF7BE3CB666F3"
+			]
+			description: ["{cabin.quest.72BE175C83834838.description1}"]
+			icon: "architects_palette:algal_blend"
+			id: "72BE175C83834838"
+			subtitle: "{cabin.quest.72BE175C83834838.subtitle}"
+			tasks: [
+				{
+					id: "1CE8BFE460CB41E0"
+					item: "architects_palette:algal_blend"
+					type: "item"
+				}
+				{
+					id: "63EA7BF746BF3254"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.72BE175C83834838.title}"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CB570195DA7E106"]
+			description: ["{cabin.quest.532EFE32C3A515B5.description1}"]
+			icon: "minecraft:stripped_oak_log"
+			id: "532EFE32C3A515B5"
+			subtitle: "{cabin.quest.532EFE32C3A515B5.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:stripped_oak_log"
+					id: "3C7A4BA98EEC90E8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:stripped_logs"
+						}
+					}
+					title: "{cabin.task.3C7A4BA98EEC90E8}"
+					type: "item"
+				}
+				{
+					id: "7B60357D06FE3ADC"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.532EFE32C3A515B5.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["532EFE32C3A515B5"]
+			description: ["{cabin.quest.19921941321965A4.description1}"]
+			icon: "minecraft:oak_planks"
+			id: "19921941321965A4"
+			subtitle: "{cabin.quest.19921941321965A4.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:oak_planks"
+					id: "1A63E51B0CF5C6DD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "{cabin.task.1A63E51B0CF5C6DD}"
+					type: "item"
+				}
+				{
+					id: "175767726FBCAA8D"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.19921941321965A4.title}"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19921941321965A4"]
+			description: [
+				"{cabin.quest.59E4A6163753BC12.description1}"
+				""
+				"{cabin.quest.59E4A6163753BC12.description2}"
+			]
+			icon: "minecraft:oak_slab"
+			id: "59E4A6163753BC12"
+			subtitle: "{cabin.quest.59E4A6163753BC12.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:oak_slab"
+					id: "23030B6D0072EBE8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wooden_slabs"
+						}
+					}
+					title: "{cabin.task.23030B6D0072EBE8}"
+					type: "item"
+				}
+				{
+					id: "59B260F52722A1FE"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.59E4A6163753BC12.title}"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"106C6DFDCB97327C"
+				"32786E9D145FFE25"
+			]
+			description: ["{cabin.quest.73FCA432DEFC1DED.description1}"]
+			icon: "create:andesite_alloy"
+			id: "73FCA432DEFC1DED"
+			subtitle: "{cabin.quest.73FCA432DEFC1DED.subtitle}"
+			tasks: [
+				{
+					id: "4F50D847118D6E62"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "6AA98FC4680D6521"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.73FCA432DEFC1DED.title}"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72BE175C83834838"]
+			description: ["{cabin.quest.32786E9D145FFE25.description1}"]
+			icon: "architects_palette:algal_brick"
+			id: "32786E9D145FFE25"
+			subtitle: "{cabin.quest.32786E9D145FFE25.subtitle}"
+			tasks: [
+				{
+					id: "706BA4E65686CA1B"
+					item: "architects_palette:algal_brick"
+					type: "item"
+				}
+				{
+					id: "1484A9A6DB85EA6D"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.32786E9D145FFE25.title}"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"59E4A6163753BC12"
+				"73FCA432DEFC1DED"
+				"5A055D0421861318"
+			]
+			description: [
+				"{cabin.quest.675C395B2074C24C.description1}"
+				""
+				"{cabin.quest.675C395B2074C24C.description2}"
+			]
+			icon: "kubejs:kinetic_mechanism"
+			id: "675C395B2074C24C"
+			subtitle: "{cabin.quest.675C395B2074C24C.subtitle}"
+			tasks: [
+				{
+					id: "68B67FDC410885B3"
+					item: "kubejs:kinetic_mechanism"
+					type: "item"
+				}
+				{
+					id: "34C54664AB22ECFD"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.675C395B2074C24C.title}"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"59E4A6163753BC12"
+				"73FCA432DEFC1DED"
+			]
+			description: [
+				"{cabin.quest.5A055D0421861318.description1}"
+				"{cabin.quest.5A055D0421861318.description2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cb_microblock:stone_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A055D0421861318"
+			shape: "circle"
+			tasks: [{
+				id: "52A4AF128B571664"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:saws"
+					}
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.5A055D0421861318.title}"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A8DF2D8553904BF"]
+			description: [
+				"{cabin.quest.5799D55BB26BA52C.description1}"
+				""
+				"{cabin.quest.5799D55BB26BA52C.description2}"
+				""
+				"{cabin.quest.5799D55BB26BA52C.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: "create:wrench"
+			id: "5799D55BB26BA52C"
+			rewards: [{
+				id: "49A9C8798141C302"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1B5F1E9F5EE6EB2C"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.5799D55BB26BA52C.title}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["675C395B2074C24C"]
+			description: [
+				"{cabin.quest.3F45DFEF31838A00.description1}"
+				""
+				"{cabin.quest.3F45DFEF31838A00.description2}"
+				"{cabin.quest.3F45DFEF31838A00.description3}"
+			]
+			id: "3F45DFEF31838A00"
+			rewards: [
+				{
+					count: 16
+					id: "30E03E42611E5613"
+					item: "kubejs:kinetic_mechanism"
+					type: "item"
+				}
+				{
+					id: "006F556964FDC753"
+					item: "minecraft:redstone"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "641C2EF6193736A1"
+					item: "minecraft:iron_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2D4BB6A2E22A86E3"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			title: "{cabin.quest.3F45DFEF31838A00.title}"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3F45DFEF31838A00"
+				"681DACF11F193771"
+			]
+			description: ["{cabin.quest.3728DF562D6DCE3A.description1}"]
+			hide_until_deps_complete: true
+			icon: "thermal:resin_bucket"
+			id: "3728DF562D6DCE3A"
+			shape: "square"
+			subtitle: "{cabin.quest.3728DF562D6DCE3A.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "52B181D406A5AC67"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "29BEB0A31C3FB00B"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.3728DF562D6DCE3A.title}"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3728DF562D6DCE3A"]
+			description: ["{cabin.quest.3EF5F89DBD6959E3.description1}"]
+			icon: "thermal:rubber"
+			id: "3EF5F89DBD6959E3"
+			subtitle: "{cabin.quest.3EF5F89DBD6959E3.subtitle}"
+			tasks: [
+				{
+					id: "0F98BACE3B940BC9"
+					item: "thermal:rubber"
+					type: "item"
+				}
+				{
+					id: "5BBF2E1143CD356E"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.3EF5F89DBD6959E3.title}"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3EF5F89DBD6959E3"]
+			description: [
+				"{cabin.quest.29D37095C73B3DEC.description1}"
+				""
+				"{cabin.quest.29D37095C73B3DEC.description2}"
+			]
+			icon: "thermal:cured_rubber"
+			id: "29D37095C73B3DEC"
+			shape: "square"
+			subtitle: "{cabin.quest.29D37095C73B3DEC.subtitle}"
+			tasks: [
+				{
+					id: "7D328EB34500FE28"
+					item: "thermal:cured_rubber"
+					type: "item"
+				}
+				{
+					id: "17286271B0667AAA"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.29D37095C73B3DEC.title}"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29D37095C73B3DEC"]
+			description: ["{cabin.quest.6545C3F427B12106.description1}"]
+			id: "6545C3F427B12106"
+			shape: "circle"
+			tasks: [{
+				id: "2C94C22FBED69EE4"
+				item: "kubejs:sealed_mechanism"
+				type: "item"
+			}]
+			title: "{cabin.quest.6545C3F427B12106.title}"
+			x: -0.20000000000003126d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6545C3F427B12106"]
+			description: ["{cabin.quest.0E0535849D8D9279.description1}"]
+			id: "0E0535849D8D9279"
+			rewards: [
+				{
+					count: 16
+					id: "0CDF1AD650CC3EA0"
+					item: "kubejs:sealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "200F3D1A04E713EF"
+					item: "thermal:cured_rubber"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "38E1B6571EDAA96B"
+					item: "minecraft:copper_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "31511DA3C34905F1"
+				item: "kubejs:copper_machine"
+				type: "item"
+			}]
+			title: "{cabin.quest.0E0535849D8D9279.title}"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5799D55BB26BA52C"]
+			description: [
+				"{cabin.quest.6892AE55581393C6.description1}"
+				""
+				"{cabin.quest.6892AE55581393C6.description2}"
+			]
+			icon: "ae2:speed_card"
+			id: "6892AE55581393C6"
+			shape: "circle"
+			tasks: [{
+				id: "4DC18CB3A19686E5"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.6892AE55581393C6.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3F45DFEF31838A00"
+				"28D3347E8FA277AD"
+			]
+			description: [
+				"{cabin.quest.5C4F6E63B02A25F0.description1}"
+				""
+				"{cabin.quest.5C4F6E63B02A25F0.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:deepslate"
+			id: "5C4F6E63B02A25F0"
+			subtitle: "{cabin.quest.5C4F6E63B02A25F0.subtitle}"
+			tasks: [
+				{
+					id: "414AB7FC6D0F52BF"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					id: "5A531D21DEBB3FA8"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.5C4F6E63B02A25F0.title}"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5C4F6E63B02A25F0"]
+			description: ["{cabin.quest.4D8972AE5B614FB3.description1}"]
+			icon: "minecraft:magma_block"
+			id: "4D8972AE5B614FB3"
+			subtitle: "{cabin.quest.4D8972AE5B614FB3.subtitle}"
+			tasks: [
+				{
+					id: "2E9806386AA204A1"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "728CB4E169DEED42"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4D8972AE5B614FB3.title}"
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D8972AE5B614FB3"]
+			description: ["{cabin.quest.4064D448404CD639.description1}"]
+			icon: "minecraft:obsidian"
+			id: "4064D448404CD639"
+			subtitle: "{cabin.quest.4064D448404CD639.subtitle}"
+			tasks: [
+				{
+					id: "09D097DEABDD1E51"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "4650061E5C50B8FA"
+					title: "{cabin.task.0842082756DA73FE}"
+					type: "checkmark"
+				}
+			]
+			title: "{cabin.quest.4064D448404CD639.title}"
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["76706BE282ABAC31"]
+			description: [
+				"{cabin.quest.667F4F686A45EF3E.description1}"
+				""
+				"{cabin.quest.667F4F686A45EF3E.description2}"
+			]
+			id: "667F4F686A45EF3E"
+			rewards: [{
+				count: 128
+				id: "72B61CAAE9A75F6F"
+				item: "create:track"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5F986F8FC1D339AA"
+				item: "kubejs:gold_machine"
+				type: "item"
+			}]
+			title: "{cabin.quest.667F4F686A45EF3E.title}"
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4064D448404CD639"]
+			description: [
+				"{cabin.quest.76706BE282ABAC31.description1}"
+				""
+			]
+			id: "76706BE282ABAC31"
+			shape: "circle"
+			tasks: [{
+				id: "232D11392F252A8E"
+				item: "kubejs:reinforced_mechanism"
+				type: "item"
+			}]
+			title: "{cabin.quest.76706BE282ABAC31.title}"
+			x: 4.0d
+			y: 11.5d
+		}
+	]
+	title: "{cabin.chapter.45AEDCD3B795E95A.title}"
+}

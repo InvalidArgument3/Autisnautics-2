@@ -1,0 +1,1247 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "professions"
+	group: "0810E42B2DD79973"
+	icon: "minecraft:item_frame"
+	id: "1634333847CCE52A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.1E26046FA8177616.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:constantan"
+						"tconstruct:electrum"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 3.25f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "1E26046FA8177616"
+			rewards: [{
+				id: "556BBA8B09E4BA0C"
+				item: "kubejs:profession_card_mining"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "121ECE09FBC2490A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.1E26046FA8177616.title}"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.12B37E99B1D3837E.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:kama"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:constantan"
+						"tconstruct:electrum"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.5f
+					}
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 1.625f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "12B37E99B1D3837E"
+			rewards: [{
+				id: "4F0E97B8E88BF530"
+				item: "kubejs:profession_card_farming"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "40D5C78A3738FC5E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.12B37E99B1D3837E.title}"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.3A48FDC224D029BF.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:hand_axe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:constantan"
+						"tconstruct:electrum"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:stripping"
+						}
+					]
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 8.25f
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:durability": 722.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 7.475f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "3A48FDC224D029BF"
+			rewards: [{
+				id: "570B46650865045E"
+				item: "kubejs:profession_card_carpentry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "1D8BF49B36108A4D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.3A48FDC224D029BF.title}"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.66DA9BE9277FABF1.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66DA9BE9277FABF1"
+			rewards: [{
+				id: "382E25CBB362EB84"
+				item: "kubejs:profession_card_cooking"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "7DB85322979AEF65"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.66DA9BE9277FABF1.title}"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.683AA93BE7DEA512.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:sledge_hammer"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:electrum"
+						"tconstruct:constantan"
+						"tconstruct:bronze"
+						"tconstruct:bronze"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:experienced"
+						}
+						{
+							level: 1
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 2
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 2
+							name: "tconstruct:smite"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+						"tconstruct:mining_speed": 0.4f
+					}
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 6.58125f
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:durability": 1871.5f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 3.45f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "683AA93BE7DEA512"
+			rewards: [{
+				id: "1617766BFFC620D2"
+				item: "kubejs:profession_card_masonry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "30824E76C57A8679"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.683AA93BE7DEA512.title}"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.66DDDE912A191E57.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:sword"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bronze"
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:maintained"
+						}
+						{
+							level: 2
+							name: "tconstruct:temperate"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 5.25f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:durability": 794.2f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 3.7375f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "66DDDE912A191E57"
+			rewards: [{
+				id: "242009705F048500"
+				item: "kubejs:profession_card_hunting"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "3F3272C9BFC25003"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.66DDDE912A191E57.title}"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["36E02479368EAF04"]
+			description: [
+				"{cabin.quest.59B17CA4AA6D0DD4.description1}"
+				""
+				"{cabin.quest.59B17CA4AA6D0DD4.description2}"
+			]
+			icon: "minecraft:writable_book"
+			id: "59B17CA4AA6D0DD4"
+			shape: "circle"
+			tasks: [{
+				id: "0423DFD47CB1DCE3"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.59B17CA4AA6D0DD4.title}"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{cabin.quest.36E02479368EAF04.description1}"
+				"{cabin.quest.00003FCBB33E62C4.description2}"
+			]
+			icon: "minecraft:oak_sign"
+			id: "36E02479368EAF04"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3FE411FC2A966816"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.36E02479368EAF04.title}"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			id: "41BB50843EF5EF10"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "60DDCBCC377BA8B6"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
+			tasks: [
+				{
+					id: "488C968F61E4B260"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "42D3B8604E57BF0C"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "72143D74D89A814A"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "67A6AAF07DECFBB6"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "1AFB1184CADE0663"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "1378A6451110CC4C"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.41BB50843EF5EF10.title}"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.6C0EC278451434AC.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "aquaculture:gold_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C0EC278451434AC"
+			rewards: [{
+				id: "70312C750F6E2115"
+				item: "kubejs:profession_card_fishing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "79BD40CF4A57DA36"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.6C0EC278451434AC.title}"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			description: ["{cabin.quest.736FC31210F334F2.description1}"]
+			icon: "minecraft:book"
+			id: "736FC31210F334F2"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "6C5F42C1888F0C63"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
+			tasks: [{
+				id: "7D2F867FD8A5A68A"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cabin.quest.736FC31210F334F2.title}"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			description: ["{cabin.quest.32C46B11BDAD7632.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32C46B11BDAD7632"
+			rewards: [{
+				id: "2E450774C09EF266"
+				item: "kubejs:profession_card_smithing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 30L
+				icon: "kubejs:silver_coin"
+				id: "042431BBCD1966C4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.32C46B11BDAD7632.title}"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["41BB50843EF5EF10"]
+			icon: "biomesoplenty:flowering_oak_sapling"
+			id: "08DB1CFAE4555525"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "5CEE44BA4F587BB2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
+			tasks: [
+				{
+					id: "57263F412DD5DF08"
+					item: "biomesoplenty:fir_sapling"
+					type: "item"
+				}
+				{
+					id: "657B38C214414E2B"
+					item: "biomesoplenty:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3E7A122FD86E017F"
+					item: "biomesoplenty:flowering_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "7CBBC7FB7C7F5D7E"
+					item: "biomesoplenty:palm_sapling"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.08DB1CFAE4555525.title}"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			icon: "thermal:sulfur"
+			id: "128F1A9528CA4130"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "7FA1F28AC13E3742"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
+			tasks: [
+				{
+					id: "05FA6BA978E2C59F"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "4DC845907E010B7E"
+					item: "thermal:sulfur"
+					type: "item"
+				}
+				{
+					id: "40D6184B28DD1B00"
+					item: "thermal:cinnabar"
+					type: "item"
+				}
+				{
+					id: "6EC680AD06AEAE3E"
+					item: "thermal:niter"
+					type: "item"
+				}
+				{
+					id: "394B5E7E3AD55394"
+					item: "thermal:apatite"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.128F1A9528CA4130.title}"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["128F1A9528CA4130"]
+			icon: "thermal:ruby"
+			id: "669D57A1E1B09CD8"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "158BDC6AB3DED2C8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
+			tasks: [
+				{
+					id: "18D9327C3A3FC945"
+					item: "thermal:ruby"
+					type: "item"
+				}
+				{
+					id: "0129F312595D379D"
+					item: "thermal:sapphire"
+					type: "item"
+				}
+				{
+					id: "5AA9BAAE6336FE84"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4B1BE14A56875A44"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "570BED1488497EDD"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.669D57A1E1B09CD8.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["{cabin.quest.436DA1A1AB8C0734.description1}"]
+			icon: "minecraft:music_disc_13"
+			id: "436DA1A1AB8C0734"
+			rewards: [{
+				count: 32
+				icon: "kubejs:silver_coin"
+				id: "76F8080C0E176A08"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
+			tasks: [{
+				id: "28EC11DE8335B74A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:sellable_discs"
+					}
+				}
+				title: "{cabin.task.28EC11DE8335B74A}"
+				type: "item"
+			}]
+			title: "{cabin.quest.436DA1A1AB8C0734.title}"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:granite"
+			id: "2A9AAED667A95C6E"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "3D573B952A099408"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "107EBA54BFA18FD9"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "18A900D9A3914F00"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "53041ECE4D386D55"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63909F521730B80A"
+					item: "create:limestone"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.2A9AAED667A95C6E.title}"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A9AAED667A95C6E"]
+			icon: "minecraft:basalt"
+			id: "7D92D05B4A67FD78"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "191FAA4E0A99AF43"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "202DC6687EAB3378"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5EC196FF10FD67EE"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "731A6B9678CE71D8"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.7D92D05B4A67FD78.title}"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: ["{cabin.quest.1C5EA1173F4E592B.description1}"]
+			id: "1C5EA1173F4E592B"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "3125103507C80C78"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
+			tasks: [{
+				count: 256L
+				id: "0A99B239D9EA5B0B"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "{cabin.quest.1C5EA1173F4E592B.title}"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			icon: "minecraft:carrot"
+			id: "4D07666ECE75D9B5"
+			rewards: [{
+				count: 25
+				icon: "kubejs:silver_coin"
+				id: "001C0326E6B6F1FF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
+			tasks: [
+				{
+					count: 3L
+					id: "583272656AABAD03"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19A897A26BEE9DC3"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "26D3EBEE2A65DC26"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4BCA88E713BFF541"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "59E905250653DB9A"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0863A4006B84F0F6"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.4D07666ECE75D9B5.title}"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D07666ECE75D9B5"]
+			icon: "farmersdelight:rice_panicle"
+			id: "3F2FB159F1B8875F"
+			rewards: [{
+				count: 45
+				icon: "kubejs:silver_coin"
+				id: "2EE90E45D02D23F1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
+			tasks: [
+				{
+					count: 3L
+					id: "35195894FE238A3E"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5AE85D27C59EDB92"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "46748564E10CA41F"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3172958C368155FE"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19E6E248E2E1056F"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "35DBA0B40123BE4B"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.3F2FB159F1B8875F.title}"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:bone"
+			id: "7932D19BE114264A"
+			rewards: [{
+				count: 55
+				icon: "kubejs:silver_coin"
+				id: "652AE60D13691604"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.7932D19BE114264A.subtitle}"
+			tasks: [
+				{
+					count: 16L
+					id: "1B971FF02438A787"
+					item: "minecraft:bone_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "682A8719CE780D9A"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "77DF03F6422FE09D"
+					item: "reliquary:rib_bone"
+					type: "item"
+				}
+				{
+					id: "5B926A8BCD627407"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.7932D19BE114264A.title}"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "7C270AB26CD9AAB8"
+			rewards: [{
+				count: 30
+				icon: "kubejs:silver_coin"
+				id: "15ACAE1E4D900E4C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0C72441783664753"
+				type: "kill"
+				value: 50L
+			}]
+			title: "{cabin.quest.7C270AB26CD9AAB8.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "29B58A9EDA478E7D"
+			rewards: [{
+				count: 50
+				icon: "kubejs:silver_coin"
+				id: "57CF6CE48FF1115D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09EA580B3D32FEEB.subtitle}"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "6C65780CF2751821"
+				type: "kill"
+				value: 40L
+			}]
+			title: "{cabin.quest.29B58A9EDA478E7D.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "1AA2C3EECE1832EE"
+			rewards: [{
+				count: 50
+				icon: "kubejs:silver_coin"
+				id: "5D7DB09D0FA7B0A5"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09EA580B3D32FEEB.subtitle}"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "tconstruct:spider_head"
+				id: "60B3526FA0D6A2AF"
+				type: "kill"
+				value: 30L
+			}]
+			title: "{cabin.quest.1AA2C3EECE1832EE.title}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "3F00084D9474C381"
+			rewards: [{
+				count: 2
+				icon: "kubejs:gold_coin"
+				id: "0D8EB996DBC24C64"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
+			tasks: [{
+				id: "2CA6E7602A5FBCF5"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			title: "{cabin.quest.3F00084D9474C381.title}"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "562696C1D01B2685"
+			rewards: [{
+				count: 15
+				icon: "kubejs:silver_coin"
+				id: "76F2C38DE80E75F0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "07132D69A1BA37B5"
+				stat: "minecraft:animals_bred"
+				title: "{cabin.task.07132D69A1BA37B5}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{cabin.quest.562696C1D01B2685.title}"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			icon: "create:crushed_raw_gold"
+			id: "39D56A2B01DBD865"
+			rewards: [{
+				count: 30
+				icon: "kubejs:silver_coin"
+				id: "1727FE45C409A64E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.39D56A2B01DBD865.subtitle}"
+			tasks: [
+				{
+					count: 5L
+					id: "592A29507FE620D0"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5CAA30D3A26DE48A"
+					item: "create:crushed_raw_copper"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "58D69FCA7C1035F5"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4C2DB8A65AD97FAB"
+					item: "create:crushed_raw_nickel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "73726468F48CE993"
+					item: "create:crushed_raw_lead"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "176CF773DF3BBBD0"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.39D56A2B01DBD865.title}"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["{cabin.quest.76E3B76D47A1F889.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76E3B76D47A1F889"
+			rewards: [{
+				count: 10
+				icon: "kubejs:silver_coin"
+				id: "72ADE787CA674127"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
+			tasks: [
+				{
+					id: "7CEFF147708B6647"
+					item: {
+						Count: 1
+						id: "minecraft:white_banner"
+						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 9
+										Pattern: "mr"
+									}
+									{
+										Color: 8
+										Pattern: "bs"
+									}
+									{
+										Color: 7
+										Pattern: "cs"
+									}
+									{
+										Color: 8
+										Pattern: "bo"
+									}
+									{
+										Color: 15
+										Pattern: "ms"
+									}
+									{
+										Color: 8
+										Pattern: "hh"
+									}
+									{
+										Color: 8
+										Pattern: "mc"
+									}
+									{
+										Color: 15
+										Pattern: "bo"
+									}
+								]
+							}
+							HideFlags: 32
+							display: {
+								Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "minecraft:pillager"
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2FDA048387F90ED7"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "{cabin.quest.76E3B76D47A1F889.title}"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			id: "2F2BA8C2AC2E0B93"
+			rewards: [{
+				count: 60
+				icon: "kubejs:silver_coin"
+				id: "52C6094274D540AB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.2F2BA8C2AC2E0B93.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:golden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "374CDBF68F90BDC9"
+				stat: "minecraft:jump"
+				title: "{cabin.task.374CDBF68F90BDC9}"
+				type: "stat"
+				value: 16000
+			}]
+			title: "{cabin.quest.2F2BA8C2AC2E0B93.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "{cabin.chapter.1634333847CCE52A.title}"
+}

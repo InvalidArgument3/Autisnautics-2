@@ -1,0 +1,1209 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market"
+	group: "0810E42B2DD79973"
+	icon: "minecraft:chest"
+	id: "44F68408CAD025B8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{cabin.quest.5D17CB247942013A.description1}"]
+			icon: "minecraft:cyan_bed"
+			id: "5D17CB247942013A"
+			rewards: [{
+				id: "55EF0FE847AE3353"
+				item: "minecraft:cyan_bed"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "0783860FB502A201"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.5D17CB247942013A.title}"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{cabin.quest.252B9DD5BFB8184A.description1}"
+				""
+				"{cabin.quest.252B9DD5BFB8184A.description2}"
+			]
+			icon: "create:blaze_burner"
+			id: "252B9DD5BFB8184A"
+			rewards: [{
+				id: "0B037E2AAC9844B5"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"filled_map.fortress\"}"
+						}
+						maxSearchRadius: 6
+						skinKnown: 1b
+						targetStructure: "betterfortresses:fortress"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
+			tasks: [{
+				count: 2L
+				icon: "kubejs:gold_coin"
+				id: "5345AA8760A95127"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.252B9DD5BFB8184A.title}"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: ["{cabin.quest.4F953BACF4D1C151.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cb_microblock:diamond_saw"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Enchanted Saw\"}"
+					}
+				}
+			}
+			id: "4F953BACF4D1C151"
+			rewards: [{
+				id: "56DB21D18FB1FF64"
+				item: {
+					Count: 1
+					id: "cb_microblock:diamond_saw"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						HideFlags: 1
+						RepairCost: 0
+						Unbreakable: 1
+						display: {
+							Lore: ["{\"text\":\"Do not use in manual crafting\"}"]
+							Name: "{\"text\":\"Enchanted Saw\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.4F953BACF4D1C151.subtitle}"
+			tasks: [
+				{
+					id: "4C77B71D0EC3B2EA"
+					item: {
+						Count: 1
+						id: "cb_microblock:diamond_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					icon: "kubejs:gold_coin"
+					id: "3EE8736C08EF80F4"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.4F953BACF4D1C151.title}"
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			description: ["{cabin.quest.72CACE8F0E4701B1.description1}"]
+			icon: {
+				Count: 1
+				id: "projectred_core:screwdriver"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "72CACE8F0E4701B1"
+			rewards: [{
+				id: "743730BBE32A0875"
+				item: {
+					Count: 1
+					id: "projectred_core:screwdriver"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						HideFlags: 1
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"Enchanted Screwdriver\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.4F953BACF4D1C151.subtitle}"
+			tasks: [
+				{
+					id: "1E25EB2883C9A960"
+					item: {
+						Count: 1
+						id: "projectred_core:screwdriver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					icon: "kubejs:gold_coin"
+					id: "74585BB7E80CF010"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.72CACE8F0E4701B1.title}"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			description: ["{cabin.quest.43FC566E833BE834.description1}"]
+			icon: {
+				Count: 1
+				id: "kubejs:chromatic_resonator"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "43FC566E833BE834"
+			rewards: [{
+				id: "0F4C7BB4C0ECB4CC"
+				item: {
+					Count: 1
+					id: "kubejs:chromatic_resonator"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						HideFlags: 1
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"Enchanted Resonator\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.00D6DD6AE8E3C014.subtitle}"
+			tasks: [
+				{
+					id: "36CBD54BCB068EB1"
+					item: {
+						Count: 1
+						id: "kubejs:chromatic_resonator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 7L
+					icon: "kubejs:gold_coin"
+					id: "5B31A98B9EFCCFAB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.43FC566E833BE834.title}"
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"{cabin.quest.0F870BEA235D662D.description1}"
+				""
+				"{cabin.quest.0F870BEA235D662D.description2}"
+			]
+			icon: "minecraft:chest"
+			id: "0F870BEA235D662D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3929233A89B34A71"
+				type: "checkmark"
+			}]
+			title: "{cabin.quest.0F870BEA235D662D.title}"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0F870BEA235D662D"]
+			description: ["{cabin.quest.5326F6482C45D22A.description1}"]
+			icon: "kubejs:silver_coin"
+			id: "5326F6482C45D22A"
+			rewards: [{
+				count: 64
+				icon: "kubejs:silver_coin"
+				id: "26512E93CE404069"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{cabin.quest.5326F6482C45D22A.subtitle}"
+			tasks: [{
+				id: "772821832EE93341"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.1A566C74B1F7F050.title}"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0F870BEA235D662D"]
+			description: ["{cabin.quest.1A566C74B1F7F050.description1}"]
+			icon: "thermal:gold_coin"
+			id: "1A566C74B1F7F050"
+			rewards: [{
+				id: "66BE3DDEC92812C4"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{cabin.quest.1A566C74B1F7F050.subtitle}"
+			tasks: [{
+				count: 64L
+				icon: "kubejs:silver_coin"
+				id: "2387D852CA97AD1A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.1A566C74B1F7F050.title}"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			description: ["{cabin.quest.09DC2E2BE2BE32F4.description1}"]
+			icon: "farmersdelight:steak_and_potatoes"
+			id: "09DC2E2BE2BE32F4"
+			rewards: [
+				{
+					count: 4
+					id: "05B553B614119E4A"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "607D48921297C475"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37DB33F821AD0AFE"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51A8014ACD2153F6"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CD27D9058DAFAAB"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
+			tasks: [{
+				count: 10L
+				icon: "kubejs:silver_coin"
+				id: "6235F365D702DF2B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.09DC2E2BE2BE32F4.title}"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			description: ["{cabin.quest.4B01606CE7AF3121.description1}"]
+			icon: "minecraft:dirt"
+			id: "4B01606CE7AF3121"
+			rewards: [
+				{
+					count: 64
+					id: "65597F84B69546EF"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5ED9F3AFC25DD60E"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A8CE751232C7235"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.1C5EA1173F4E592B.subtitle}"
+			tasks: [{
+				count: 15L
+				icon: "kubejs:silver_coin"
+				id: "188BEC2BA245DB13"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.4B01606CE7AF3121.title}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: ["{cabin.quest.09EA580B3D32FEEB.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:barrel"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "09EA580B3D32FEEB"
+			rewards: [{
+				id: "1E10CE8D433DD70E"
+				item: {
+					Count: 1
+					id: "minecraft:barrel"
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:paper"
+									tag: {
+										RepairCost: 0
+										display: {
+											Name: "{\"italic\": false, \"text\":\"Welcome, Challenger\"}"
+											bold: 0b
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "minecraft:barrel"
+									tag: {
+										BlockEntityTag: {
+											Items: [
+												{
+													Count: 1b
+													Slot: 3b
+													id: "minecraft:paper"
+													tag: {
+														RepairCost: 0
+														display: {
+															Name: "{\"italic\": false, \"text\":\"You'll have to unbox a few of these\"}"
+														}
+													}
+												}
+												{
+													Count: 1b
+													Slot: 23b
+													id: "minecraft:barrel"
+													tag: {
+														BlockEntityTag: {
+															Items: [
+																{
+																	Count: 1b
+																	Slot: 11b
+																	id: "minecraft:barrel"
+																	tag: {
+																		BlockEntityTag: {
+																			LootTable: "kubejs:chests/the_market/patience/1"
+																		}
+																		display: {
+																			Lore: ["{\"italic\":true,\"color\":\"gray\",\"text\":\"The fabled prize awaits at the bottom...\"}"]
+																		}
+																	}
+																}
+																{
+																	Count: 1b
+																	Slot: 13b
+																	id: "minecraft:paper"
+																	tag: {
+																		RepairCost: 0
+																		display: {
+																			Name: "{\"italic\": false, \"text\":\"Good luck, see you at the bottom!\"}"
+																		}
+																	}
+																}
+																{
+																	Count: 1b
+																	Slot: 14b
+																	id: "minecraft:apple"
+																	tag: {
+																		display: {
+																			Name: "{\"italic\": false, \"text\":\"Motivational Apple\"}"
+																		}
+																	}
+																}
+															]
+															id: "minecraft:barrel"
+														}
+														display: {
+															Lore: ["{\"text\": \"The fabled prize awaits at the bottom...\",\"italic\": true,\"color\": \"gray\"}"]
+														}
+													}
+												}
+											]
+											id: "minecraft:barrel"
+										}
+										display: {
+											Lore: ["{\"text\": \"The fabled prize awaits at the bottom...\",\"italic\": true,\"color\": \"gray\"}"]
+										}
+									}
+								}
+							]
+							id: "minecraft:barrel"
+						}
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+						HideFlags: 1
+						display: {
+							Lore: ["{\"italic\":true,\"color\":\"gray\",\"text\":\"The fabled prize awaits at the bottom...\"}"]
+							Name: "{\"italic\":false,\"text\":\"Test of Patience\",\"color\":\"dark_purple\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09EA580B3D32FEEB.subtitle}"
+			tasks: [{
+				count: 50L
+				icon: "kubejs:silver_coin"
+				id: "3EA558277444F605"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.09EA580B3D32FEEB.title}"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["{cabin.quest.4FD46F841CCD59F8.description1}"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "4FD46F841CCD59F8"
+			rewards: [{
+				id: "440DF47BEF341626"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.09DC2E2BE2BE32F4.subtitle}"
+			tasks: [{
+				count: 10L
+				icon: "thermal:silver_coin"
+				id: "709557A517B0143F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.4FD46F841CCD59F8.title}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: ["{cabin.quest.0CCF34BF1C5829AE.description1}"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			id: "0CCF34BF1C5829AE"
+			rewards: [{
+				id: "37DBD1EF724A42D9"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: {
+						BlockEntityTag: {
+							LootTable: "kubejs:chests/the_market/tinkerbox"
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["{\"text\":\"Contains Loot\",\"color\":\"gray\",\"italic\":\"false\"}"]
+							Name: "{\"text\":\"Tinkerbox\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.0CCF34BF1C5829AE.subtitle}"
+			tasks: [{
+				count: 25L
+				icon: "kubejs:silver_coin"
+				id: "32ACF7B1C0BD9D97"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.0CCF34BF1C5829AE.title}"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:totem_of_undying"
+			id: "6D9F2FBEB7CC5195"
+			rewards: [{
+				id: "6BCBFB22A82A5698"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.2F2BA8C2AC2E0B93.subtitle}"
+			tasks: [{
+				count: 60L
+				icon: "kubejs:silver_coin"
+				id: "165B9A886A26BCC8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.6D9F2FBEB7CC5195.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["{cabin.quest.4B52A04818075900.description1}"]
+			icon: "create:haunted_bell"
+			id: "4B52A04818075900"
+			rewards: [
+				{
+					id: "0257303302DADA1B"
+					item: "create:peculiar_bell"
+					type: "item"
+				}
+				{
+					id: "30D4605E06FF45B6"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.08DB1CFAE4555525.subtitle}"
+			tasks: [{
+				count: 45L
+				icon: "kubejs:silver_coin"
+				id: "4FB1B4787D648565"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.4B52A04818075900.title}"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["{cabin.quest.00D6DD6AE8E3C014.description1}"]
+			icon: {
+				Count: 1
+				id: "kubejs:flash_drive"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
+					display: {
+						Name: "{\"text\":\"Enchanted Flash Drive\",\"color\":\"gold\",\"italic\":false}"
+					}
+				}
+			}
+			id: "00D6DD6AE8E3C014"
+			rewards: [{
+				id: "3EA7518063CBEA5B"
+				item: {
+					Count: 1
+					id: "kubejs:flash_drive"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						HideFlags: 1
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"Enchanted Flash Drive\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.00D6DD6AE8E3C014.subtitle}"
+			tasks: [
+				{
+					id: "561DF7A17B804B1F"
+					item: {
+						Count: 1
+						id: "kubejs:flash_drive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 7L
+					icon: "kubejs:gold_coin"
+					id: "04FA9389D991556D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.00D6DD6AE8E3C014.title}"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			description: ["{cabin.quest.4BAC95CCC72369AD.description1}"]
+			icon: "ae2:silicon_press"
+			id: "4BAC95CCC72369AD"
+			rewards: [{
+				count: 4
+				id: "51ABA96DE3477D3B"
+				item: "kubejs:circuit_scrap"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.4BAC95CCC72369AD.subtitle}"
+			tasks: [{
+				count: 6L
+				icon: "kubejs:gold_coin"
+				id: "3D328A6D69E64EDA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.4BAC95CCC72369AD.title}"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["{cabin.quest.6C00F2935F27C2AD.description1}"]
+			icon: "minecraft:axolotl_bucket"
+			id: "6C00F2935F27C2AD"
+			rewards: [{
+				id: "500098FD4762A38F"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
+			tasks: [
+				{
+					count: 5L
+					icon: "kubejs:silver_coin"
+					id: "491FF95EFE8DCB67"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					id: "5F58BA2473FD6DDA"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.6C00F2935F27C2AD.title}"
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			description: ["{cabin.quest.093FB7B7FEC6B886.description1}"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "093FB7B7FEC6B886"
+			rewards: [{
+				id: "198DC310752F341F"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
+			tasks: [{
+				count: 2L
+				icon: "kubejs:gold_coin"
+				id: "30B16CC21946FE8E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.093FB7B7FEC6B886.title}"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: ["{cabin.quest.1CC29991D5F248CA.description1}"]
+			icon: "thermal:explosive_grenade"
+			id: "1CC29991D5F248CA"
+			rewards: [
+				{
+					count: 8
+					id: "1C6218230C6D71A0"
+					item: "thermal:explosive_grenade"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2D1A3F35DF8894FF"
+					item: "thermal:glowstone_grenade"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "093F58649A1E0DD6"
+					item: "thermal:ice_grenade"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71BB0C93A4A7BC04"
+					item: "thermal:earth_grenade"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.01F3EDC327B63908.subtitle}"
+			tasks: [{
+				count: 32L
+				icon: "kubejs:silver_coin"
+				id: "2BF8F9E5070C6122"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.1CC29991D5F248CA.title}"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			icon: "biomesoplenty:glowflower"
+			id: "42384DE39AA48976"
+			rewards: [
+				{
+					count: 8
+					id: "26A16DC998FEF595"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5DEDD7BBA8A712AA"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01196A417139EA21"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "648B819C1B484A3F"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
+			tasks: [{
+				count: 24L
+				icon: "kubejs:silver_coin"
+				id: "05BB5DFA82280C0C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.42384DE39AA48976.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:painting"
+			id: "61B040CD0832EFC0"
+			rewards: [
+				{
+					count: 16
+					id: "6375AD9CBA9276E0"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "72F57D408AD5C84A"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3477DB4BB2003475"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "14FE738419E8578F"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4D37425F17A9D45F"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4A3F1D820F9F1D26"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4FFD3D4728DFBB16"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0F0A7101131FFC08"
+					item: "minecraft:brown_dye"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
+			tasks: [{
+				count: 24L
+				icon: "kubejs:silver_coin"
+				id: "6404722100F1DEF7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.61B040CD0832EFC0.title}"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: ["{cabin.quest.117587D824D23D69.description1}"]
+			icon: "minecraft:minecart"
+			id: "117587D824D23D69"
+			rewards: [{
+				count: 128
+				id: "738387AED344C59B"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
+			tasks: [{
+				count: 16L
+				icon: "kubejs:silver_coin"
+				id: "06C835DB602D6F9F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.117587D824D23D69.title}"
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:tropical_fish"
+			id: "2D75D1864FB1EF75"
+			rewards: [
+				{
+					count: 4
+					id: "4961B49D79004571"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "054AEE030B3B81F6"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29F276B6CDE4D6B5"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "53AA2AF7CA1EF02C"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "762BB57B2AFDB21F"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.1D6150F2480B976E.subtitle}"
+			tasks: [{
+				count: 24L
+				icon: "kubejs:silver_coin"
+				id: "3AA788B63B6A73EF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.2D75D1864FB1EF75.title}"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{cabin.quest.7D93DAB3E8ACF953.description1}"
+				""
+				"{cabin.quest.7D93DAB3E8ACF953.description2}"
+			]
+			icon: "minecraft:cherry_sapling"
+			id: "7D93DAB3E8ACF953"
+			rewards: [
+				{
+					count: 4
+					id: "17FCE9D6C12A7822"
+					item: "quark:blue_blossom_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B801D097C1C538F"
+					item: "quark:lavender_blossom_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15B0F60077A03C61"
+					item: "biomesoplenty:yellow_maple_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "745C64C48231B0CA"
+					item: "biomesoplenty:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E7E4B570C7EDF5F"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D61111C4CF926DE"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4BCFE98EB9FF9DB4"
+					item: "minecraft:flowering_azalea"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "444BD72F5023FDF1"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.07081911727142C8.subtitle}"
+			tasks: [{
+				count: 16L
+				icon: "thermal:silver_coin"
+				id: "06028A67C6DCCD00"
+				item: { Count: 16, id: "thermal:silver_coin" }
+				type: "item"
+			}]
+			title: "{cabin.quest.7D93DAB3E8ACF953.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bee_nest"
+			id: "003E0D1CE60B166A"
+			rewards: [
+				{
+					id: "773C4F5E97BD82B8"
+					item: "minecraft:bee_nest"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C8C369DEF6B0FD4"
+					item: "minecraft:bee_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.003E0D1CE60B166A.subtitle}"
+			tasks: [
+				{
+					count: 48L
+					icon: "kubejs:silver_coin"
+					id: "6837BEE1075CC785"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3CCE09D1715B54C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					title: "{cabin.task.3CCE09D1715B54C7}"
+					type: "item"
+				}
+			]
+			title: "{cabin.quest.003E0D1CE60B166A.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["{cabin.quest.04468935C9A7298F.description1}"]
+			icon: "minecraft:kelp"
+			id: "04468935C9A7298F"
+			rewards: [{
+				count: 15
+				id: "4420617E22747710"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.04468935C9A7298F.subtitle}"
+			tasks: [{
+				count: 5L
+				id: "1EB77DF31A04A04D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.04468935C9A7298F.title}"
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			description: ["{cabin.quest.185F9F8EBD0F8F87.description1}"]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "185F9F8EBD0F8F87"
+			rewards: [
+				{
+					id: "67E1EFF44408867B"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "401831CDED2C1763"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "192D6973AB74C953"
+					item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "{cabin.quest.185F9F8EBD0F8F87.subtitle}"
+			tasks: [{
+				count: 20L
+				id: "78ABC9B3BB0C7DC6"
+				item: "thermal:silver_coin"
+				title: "{cabin.task.78ABC9B3BB0C7DC6}"
+				type: "item"
+			}]
+			title: "{cabin.quest.185F9F8EBD0F8F87.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{cabin.quest.42A7073F3681626C.description1}"
+				""
+				"{cabin.quest.42A7073F3681626C.description2}"
+			]
+			icon: "trials:trial_spawner"
+			id: "42A7073F3681626C"
+			rewards: [{
+				id: "4DEC158A5EA3208C"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"filled_map.trials.chambers\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "trials:trials_chambers"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cabin.quest.093FB7B7FEC6B886.subtitle}"
+			tasks: [{
+				count: 2L
+				icon: "kubejs:gold_coin"
+				id: "50824DA7246920CA"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "{cabin.quest.42A7073F3681626C.title}"
+			x: -8.0d
+			y: 2.0d
+		}
+	]
+	title: "{cabin.chapter.44F68408CAD025B8.title}"
+}
