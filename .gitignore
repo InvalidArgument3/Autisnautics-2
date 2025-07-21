@@ -90,6 +90,7 @@ config/fancymenu/customization/pack_credit_screen_layout.txt
 /config/**/*client.*
 #Except these
 !/config/sophisticatedstorage-client.toml
+!/config/alexsmobsinteraction-client.toml
 !/config/**/darkmodeeverywhere-client.toml
 
 defaultconfigs/ftbultimine/ftbultimine-client.snbt
