@@ -115,6 +115,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "corpse": {
     "corpse": true
   },
