@@ -22,7 +22,7 @@ on:
       draft:
         description: "Draft GitHub release (CF release will always be normal)"
         type: boolean
-        default: true
+        default: false
       generate_release_notes:
         description: "Auto generate release notes"
         type: boolean
