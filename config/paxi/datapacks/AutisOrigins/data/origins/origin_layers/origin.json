@@ -13,6 +13,5 @@
         "autisorigins:rat"
     ],
     "enabled": true,
-    "allow_random": true,
-    "default_origin": ""
+    "allow_random": true
 }
