@@ -571,6 +571,40 @@
 			quartz_brick = true
 			quartz_pillar = true
 
+		[types.cut_block_type.ad_astra]
+			iron_plating = true
+			steel_plating = true
+			desh_plating = true
+			ostrum_plating = true
+			calorite_plating = true
+			moon_stone = true
+			moon_cobblestone = true
+			moon_stone_brick = true
+			polished_moon_stone = true
+			aeronos = true
+			strophar = true
+			mars_stone = true
+			mars_cobblestone = true
+			mars_stone_brick = true
+			polished_mars_stone = true
+			mercury_stone = true
+			mercury_cobblestone = true
+			mercury_stone_brick = true
+			polished_mercury_stone = true
+			venus_stone = true
+			venus_cobblestone = true
+			venus_stone_brick = true
+			polished_venus_stone = true
+			venus_sandstone_brick = true
+			glacio_stone = true
+			glacio_cobblestone = true
+			glacio_stone_brick = true
+			polished_glacio_stone = true
+			permafrost_brick = true
+			chiseled_permafrost_brick = true
+			polished_permafrost = true
+			glacian = true
+
 	[types.cake]
 
 		[types.cake.youkaishomecoming]
@@ -641,6 +675,11 @@
 		[types.wood_type.thermal]
 			rubberwood = true
 
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.tconstruct]
@@ -705,6 +744,9 @@
 
 		[types.leaves_type.thermal]
 			rubberwood = true
+
+		[types.leaves_type.ad_astra]
+			glacian = true
 
 #Disables specific entries
 [entries]

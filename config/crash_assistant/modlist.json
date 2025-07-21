@@ -9,6 +9,11 @@
     "modId": "magistuarmory",
     "version": "9.23"
   },
+  "ad_astra-forge-1.20.1-1.15.19.jar": {
+    "jarName": "ad_astra-forge-1.20.1-1.15.19.jar",
+    "modId": "ad_astra",
+    "version": "1.15.19"
+  },
   "AdChimneys-1.20.1-10.1.18.0-build.1318.jar": {
     "jarName": "AdChimneys-1.20.1-10.1.18.0-build.1318.jar",
     "modId": "adchimneys",
