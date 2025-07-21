@@ -75,7 +75,7 @@ config/jade/sort-order.json
 config/jei*
 config/embeddium++.toml
 config/embeddium++.toml
-config/emi.css
+# config/emi.css
 config\darkmodeeverywhereshaders.json
 config\darkmodeeverywhereshaders.toml
 config/ichunutil/themes
