@@ -560,6 +560,17 @@
 		[types.cut_block_type.thermal]
 			rubberwood = true
 
+		[types.cut_block_type.kubejs]
+			trial_cut_copper = true
+			trial_oxidized_cut_copper = true
+
+		[types.cut_block_type.ae2]
+			sky_stone_brick = true
+			sky_stone_small_brick = true
+			smooth_quartz = true
+			quartz_brick = true
+			quartz_pillar = true
+
 	[types.cake]
 
 		[types.cake.youkaishomecoming]

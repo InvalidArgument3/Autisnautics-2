@@ -34,6 +34,11 @@
     "modId": "advancedperipherals",
     "version": "0.7.41r"
   },
+  "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar": {
+    "jarName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "modId": "ae2netanalyser",
+    "version": "1.20-1.0.6-forge"
+  },
   "AkashicTome-1.7-27.jar": {
     "jarName": "AkashicTome-1.7-27.jar",
     "modId": "akashictome",
@@ -108,6 +113,11 @@
     "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
     "modId": "appleskin",
     "version": "2.5.1+mc1.20.1"
+  },
+  "appliedenergistics2-forge-15.4.6.jar": {
+    "jarName": "appliedenergistics2-forge-15.4.6.jar",
+    "modId": "ae2",
+    "version": "15.4.6"
   },
   "Aquaculture-1.20.1-2.5.5.jar": {
     "jarName": "Aquaculture-1.20.1-2.5.5.jar",
@@ -847,10 +857,20 @@
     "modId": "vc_gliders",
     "version": "1.1.7"
   },
+  "Glodium-1.20-1.5-forge.jar": {
+    "jarName": "Glodium-1.20-1.5-forge.jar",
+    "modId": "glodium",
+    "version": "1.20-1.5-forge"
+  },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
     "modId": "gpumemleakfix",
     "version": "1.20.1-1.8"
+  },
+  "guideme-20.1.11.jar": {
+    "jarName": "guideme-20.1.11.jar",
+    "modId": "guideme",
+    "version": "20.1.11"
   },
   "harvest-with-ease-forge-1.20.1-9.4.0.jar": {
     "jarName": "harvest-with-ease-forge-1.20.1-9.4.0.jar",

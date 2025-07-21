@@ -1,5 +1,5 @@
 /**
- * Custom ESLint plugin for Autisnautics2 Template's KubeJS
+ * Custom ESLint plugin for Monifactory's KubeJS
  */
 
 import commentHeader from "./comment-header.mjs"
@@ -26,8 +26,8 @@ function customPluginWithAllRulesError(name, rules) {
 }
 
 export const MoniLabs = customPluginWithAllRulesError("moni-labs", {
-    "comment-header": commentHeader,
+//    "comment-header": commentHeader,
     "recipe-spacing": recipeSpacing,
     "multiblock-declaration": multiblockDeclaration,
-    "call-chains": callChains
+//    "call-chains": callChains
 })
