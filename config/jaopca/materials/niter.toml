@@ -11,5 +11,13 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "metallic"
+	modelType = "crystal"
+
+[theurgy]
+	#The alchemical sulfur tier of this material.
+	tier = "common"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 

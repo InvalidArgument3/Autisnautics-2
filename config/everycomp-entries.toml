@@ -557,6 +557,9 @@
 			marbled_cheese_brick_mossy = true
 			pirat = true
 
+		[types.cut_block_type.thermal]
+			rubberwood = true
+
 	[types.cake]
 
 		[types.cake.youkaishomecoming]
@@ -624,6 +627,9 @@
 		[types.wood_type.rats]
 			pirat = true
 
+		[types.wood_type.thermal]
+			rubberwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.tconstruct]
@@ -685,6 +691,9 @@
 
 		[types.leaves_type.rats]
 			pirat = true
+
+		[types.leaves_type.thermal]
+			rubberwood = true
 
 #Disables specific entries
 [entries]

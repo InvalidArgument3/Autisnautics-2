@@ -1,5 +1,5 @@
-WorldgenEvents.remove(allthemods => {
-  allthemods.removeOres(props => {
+WorldgenEvents.remove(autisnautics => {
+  autisnautics.removeOres(props => {
     props.worldgenLayer = 'underground_ores';
     props.blocks = [
       //"railcraft:lead_ore",
@@ -35,7 +35,7 @@ WorldgenEvents.remove(allthemods => {
       "embers:silver_ore",
       "nuclearcraft:lead_ore",
       "nuclearcraft:lithum_ore",
-      "nuclearcraft:lithium_deepslate_ore",	  
+      "nuclearcraft:lithium_deepslate_ore",
       "nuclearcraft:zinc_ore",
       "nuclearcraft:silver_ore",
       "nuclearcraft:silver_deepslate_ore",
@@ -43,7 +43,15 @@ WorldgenEvents.remove(allthemods => {
       "projectred_exploration:tin_ore",
       "projectred_exploration:silver_ore",
       "galosphere:silver_ore",
-      "galosphere:deepslate_silver_ore"
+      "galosphere:deepslate_silver_ore",
+      "immersiveengineering:ore_lead",
+      "immersiveengineering:deepslate_ore_lead",
+      "immersiveengineering:ore_nickel",
+      "immersiveengineering:deepslate_ore_nickel",
+      "immersiveengineering:ore_silver",
+      "immersiveengineering:deepslate_ore_silver",
+      "scguns:sulfur_ore",
+      "scguns:deepslate_ore_sulfur"
     ]
   })
 })

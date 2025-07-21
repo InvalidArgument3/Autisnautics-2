@@ -11,5 +11,9 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "metallic"
+	modelType = "crystal"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 

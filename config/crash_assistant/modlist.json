@@ -14,6 +14,11 @@
     "modId": "adchimneys",
     "version": "10.1.18.0"
   },
+  "AdHooks-1.20.1-10.1.2.1-build.0895.jar": {
+    "jarName": "AdHooks-1.20.1-10.1.2.1-build.0895.jar",
+    "modId": "adhooks",
+    "version": "10.1.2.1"
+  },
   "AdLods-1.20.1-8.1.6.0-build.1450.jar": {
     "jarName": "AdLods-1.20.1-8.1.6.0-build.1450.jar",
     "modId": "adlods",
@@ -343,6 +348,11 @@
     "jarName": "CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
     "modId": "codechickenlib",
     "version": "4.4.0.516"
+  },
+  "cofh_core-1.20.1-11.0.2.56.jar": {
+    "jarName": "cofh_core-1.20.1-11.0.2.56.jar",
+    "modId": "cofh_core",
+    "version": "11.0.2"
   },
   "collective-1.20.1-8.3.jar": {
     "jarName": "collective-1.20.1-8.3.jar",
@@ -990,6 +1000,16 @@
     "modId": "kubejs",
     "version": "2001.6.5-build.16"
   },
+  "kubejs-thermal-2001.1.10-build.2.jar": {
+    "jarName": "kubejs-thermal-2001.1.10-build.2.jar",
+    "modId": "kubejs_thermal",
+    "version": "2001.1.10-build.2"
+  },
+  "kubejsadditions-forge-4.3.4.jar": {
+    "jarName": "kubejsadditions-forge-4.3.4.jar",
+    "modId": "kubejsadditions",
+    "version": "4.3.4"
+  },
   "kubejsdelight-1.1.2.jar": {
     "jarName": "kubejsdelight-1.1.2.jar",
     "modId": "kubejsdelight",
@@ -1129,6 +1149,11 @@
     "jarName": "moonlight-1.20-2.14.13-forge.jar",
     "modId": "moonlight",
     "version": "1.20-2.14.13"
+  },
+  "morejs-forge-1.20.1-0.10.1.jar": {
+    "jarName": "morejs-forge-1.20.1-0.10.1.jar",
+    "modId": "morejs",
+    "version": "0.10.1"
   },
   "moreoverlays-1.22.7-mc1.20.2.jar": {
     "jarName": "moreoverlays-1.22.7-mc1.20.2.jar",
@@ -1602,6 +1627,31 @@
     "jarName": "tfmg-0.9.3-1.20.1.jar",
     "modId": "tfmg",
     "version": "0.9.3-1.20.1"
+  },
+  "thermal_dynamics-1.20.1-11.0.1.23.jar": {
+    "jarName": "thermal_dynamics-1.20.1-11.0.1.23.jar",
+    "modId": "thermal_dynamics",
+    "version": "11.0.1"
+  },
+  "thermal_expansion-1.20.1-11.0.1.29.jar": {
+    "jarName": "thermal_expansion-1.20.1-11.0.1.29.jar",
+    "modId": "thermal_expansion",
+    "version": "11.0.1"
+  },
+  "thermal_foundation-1.20.1-11.0.6.70.jar": {
+    "jarName": "thermal_foundation-1.20.1-11.0.6.70.jar",
+    "modId": "thermal_foundation",
+    "version": "11.0.6"
+  },
+  "thermal_innovation-1.20.1-11.0.1.23.jar": {
+    "jarName": "thermal_innovation-1.20.1-11.0.1.23.jar",
+    "modId": "thermal_innovation",
+    "version": "11.0.1"
+  },
+  "thermal_locomotion-1.20.1-11.0.1.19.jar": {
+    "jarName": "thermal_locomotion-1.20.1-11.0.1.19.jar",
+    "modId": "thermal_locomotion",
+    "version": "11.0.1"
   },
   "theurgy-1.20.1-1.23.4.jar": {
     "jarName": "theurgy-1.20.1-1.23.4.jar",
