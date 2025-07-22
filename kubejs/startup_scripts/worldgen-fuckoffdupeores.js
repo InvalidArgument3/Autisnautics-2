@@ -51,7 +51,9 @@ WorldgenEvents.remove(autisnautics => {
       "immersiveengineering:ore_silver",
       "immersiveengineering:deepslate_ore_silver",
       "scguns:sulfur_ore",
-      "scguns:deepslate_ore_sulfur"
+      "scguns:deepslate_ore_sulfur",
+      "projectred_exploration:ruby_ore",
+      "projectred_exploration:sapphire_ore"
     ]
   })
 })
