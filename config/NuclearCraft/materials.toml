@@ -234,6 +234,7 @@
 	hsla_steel = true
 	boron = true
 	bismuth = true
+	protactinium_231 = true
 
 [blocks]
 	steel = true

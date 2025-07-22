@@ -14,11 +14,6 @@
     "modId": "ad_astra",
     "version": "1.15.19"
   },
-  "AdChimneys-1.20.1-10.1.18.0-build.1318.jar": {
-    "jarName": "AdChimneys-1.20.1-10.1.18.0-build.1318.jar",
-    "modId": "adchimneys",
-    "version": "10.1.18.0"
-  },
   "AdHooks-1.20.1-10.1.2.1-build.0895.jar": {
     "jarName": "AdHooks-1.20.1-10.1.2.1-build.0895.jar",
     "modId": "adhooks",
@@ -28,11 +23,6 @@
     "jarName": "AdLods-1.20.1-8.1.6.0-build.1450.jar",
     "modId": "adlods",
     "version": "8.1.6.0"
-  },
-  "AdPother-1.20.1-8.1.28.0-build.1464.jar": {
-    "jarName": "AdPother-1.20.1-8.1.28.0-build.1464.jar",
-    "modId": "adpother",
-    "version": "8.1.28.0"
   },
   "AdvancedPeripherals-1.20.1-0.7.41r.jar": {
     "jarName": "AdvancedPeripherals-1.20.1-0.7.41r.jar",
@@ -1264,6 +1254,11 @@
     "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
     "modId": "notenoughcrashes",
     "version": "4.4.9+1.20.1"
+  },
+  "NuclearCraft-1.20.1-1.2.5-beta.2.jar": {
+    "jarName": "NuclearCraft-1.20.1-1.2.5-beta.2.jar",
+    "modId": "nuclearcraft",
+    "version": "1.2.5-beta.2"
   },
   "Nullscape_1.20.x_v1.2.8.jar": {
     "jarName": "Nullscape_1.20.x_v1.2.8.jar",
