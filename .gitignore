@@ -92,6 +92,7 @@ config/fancymenu/customization/pack_credit_screen_layout.txt
 !/config/sophisticatedstorage-client.toml
 !/config/alexsmobsinteraction-client.toml
 !/config/**/darkmodeeverywhere-client.toml
+!/config/immersiveengineering-client.toml
 
 defaultconfigs/ftbultimine/ftbultimine-client.snbt
 defaultconfigs/ftbultimine/ftbultimine-server.snbt
