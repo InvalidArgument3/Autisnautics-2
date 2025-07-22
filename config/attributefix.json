@@ -121,6 +121,17 @@
         "value": 2048
       }
     },
+    "slashblade:slashblade_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
     "attributeslib:armor_pierce": {
       "enabled": false,
       "min": {

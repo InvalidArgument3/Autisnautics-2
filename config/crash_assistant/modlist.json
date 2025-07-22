@@ -462,6 +462,11 @@
     "modId": "create",
     "version": "0.5.1.j"
   },
+  "create-stuff-additions1.20.1_v2.0.8.jar": {
+    "jarName": "create-stuff-additions1.20.1_v2.0.8.jar",
+    "modId": "create_sa",
+    "version": "2.0.8"
+  },
   "create_connected-0.9.4-mc1.20.1-all.jar": {
     "jarName": "create_connected-0.9.4-mc1.20.1-all.jar",
     "modId": "create_connected",
@@ -491,11 +496,6 @@
     "jarName": "createbigcannons-5.8.2-mc.1.20.1-forge.jar",
     "modId": "createbigcannons",
     "version": "5.8.2"
-  },
-  "createcontraptionterminals-1.20-1.1.0.jar": {
-    "jarName": "createcontraptionterminals-1.20-1.1.0.jar",
-    "modId": "createcontraptionterminals",
-    "version": "1.1.0"
   },
   "createdeco-2.0.2-1.20.1-forge.jar": {
     "jarName": "createdeco-2.0.2-1.20.1-forge.jar",
@@ -836,6 +836,11 @@
     "jarName": "fullstackwatchdog-1.0.1+1.19.2-forge.jar",
     "modId": "fullstackwatchdog",
     "version": "1.0.1+1.19.2-forge"
+  },
+  "functionalstorage-1.20.1-1.2.13.jar": {
+    "jarName": "functionalstorage-1.20.1-1.2.13.jar",
+    "modId": "functionalstorage",
+    "version": "1.20.1-1.2.13"
   },
   "fusion-1.2.8-forge-mc1.20.1.jar": {
     "jarName": "fusion-1.2.8-forge-mc1.20.1.jar",
@@ -1475,6 +1480,11 @@
     "modId": "relics",
     "version": "0.8.0.9"
   },
+  "reliquary-1.20.1-2.0.46.1257.jar": {
+    "jarName": "reliquary-1.20.1-2.0.46.1257.jar",
+    "modId": "reliquary",
+    "version": "2.0.46.1257"
+  },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
     "modId": "resourcefulconfig",
@@ -1552,6 +1562,11 @@
     "jarName": "skinrestorer-2.3.5+1.20-forge.jar",
     "modId": "skinrestorer",
     "version": "2.3.5+1.20-forge"
+  },
+  "SlashBladeResharped-1.20.1-1.3.41.jar": {
+    "jarName": "SlashBladeResharped-1.20.1-1.3.41.jar",
+    "modId": "slashblade",
+    "version": "1.3.41"
   },
   "sliceanddice-forge-3.3.0.jar": {
     "jarName": "sliceanddice-forge-3.3.0.jar",
@@ -1728,10 +1743,10 @@
     "modId": "tisadvanced",
     "version": "1.20.1-0.3.1"
   },
-  "toms_storage-1.20-1.7.1.jar": {
-    "jarName": "toms_storage-1.20-1.7.1.jar",
-    "modId": "toms_storage",
-    "version": "1.7.1"
+  "titanium-1.20.1-3.8.32.jar": {
+    "jarName": "titanium-1.20.1-3.8.32.jar",
+    "modId": "titanium",
+    "version": "3.8.32"
   },
   "toofast-1.20-0.4.3.5.jar": {
     "jarName": "toofast-1.20-0.4.3.5.jar",

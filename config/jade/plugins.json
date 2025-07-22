@@ -74,6 +74,9 @@
     "block": true,
     "note_block": true
   },
+  "functionalstorage": {
+    "armory": true
+  },
   "balm": {
     "jade": true
   },
@@ -100,6 +103,12 @@
     "crop_progress": true,
     "pie_icons": true,
     "mushroom_colony": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   },
   "supplementaries": {
     "hat_stand": true

@@ -34,7 +34,7 @@ gamma:0.0
 renderDistance:16
 simulationDistance:16
 entityDistanceScaling:1.0
-guiScale:4
+guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["jaopca:inmemory","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","RU Glistering Meadows Fix Regions Unexplored Flick Resource Pack Fix Pink","Autisnautics2Sound.zip","Autisnautics2Textures","ComputerCreate.zip"]
-incompatibleResourcePacks:["GAFpack custom splashes"]
+resourcePacks:["jaopca:inmemory","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","RU Glistering Meadows Fix Regions Unexplored Flick Resource Pack Fix Pink","Autisnautics2Sound.zip","Autisnautics2Textures","CABIN","CABIN - Create Energistics","Create Computers 1.2.1 - 1.20.1.zip","Create-Energistics-1.1.1-mc1.20.1.zip","CreateSophisticatedBackpacks.zip","Created Pretty Pipes1.0 FIXED.zip","Quark Programmer Art.zip"]
+incompatibleResourcePacks:["CreateSophisticatedBackpacks.zip","Created Pretty Pipes1.0 FIXED.zip","Quark Programmer Art.zip"]
 lastServer:192.168.1.41:25569
 lang:en_us
 soundDevice:""

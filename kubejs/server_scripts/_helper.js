@@ -51,8 +51,12 @@ const donutCraft = (event, output, center, ring) => {
  */
 // event is the second parameter so that machineItem doesn't look like it's the output item
 const createMachine = (machineItem, event, outputIngredient, inputIngredient) => {
+    console.log(`createMachine called with: machineItem=${machineItem}, outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
+    
     machineItem = Ingredient.of(machineItem)
     outputIngredient = Item.of(outputIngredient)
+    
+    console.log(`After conversion: machineItem=${machineItem}, outputIngredient=${outputIngredient}, outputIngredient.isEmpty()=${outputIngredient.isEmpty()}`)
 
     event.remove({ output: outputIngredient })
     if (inputIngredient) {
@@ -77,44 +81,62 @@ const createMachine = (machineItem, event, outputIngredient, inputIngredient) =>
 
         })
     }
-    else
+    else {
+        console.log(`About to call stonecutting with: output=${outputIngredient}, input=${machineItem}`)
+        console.log(`outputIngredient.isEmpty(): ${outputIngredient.isEmpty()}`)
+        
+        if (outputIngredient.isEmpty()) {
+            console.log(`ERROR: outputIngredient is empty, skipping stonecutting recipe`)
+            return
+        }
+        
         event.stonecutting(outputIngredient, machineItem)
+    }
 }
 
 const andesiteMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`andesiteMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:andesite_machine", event, outputIngredient, inputIngredient)
 }
 
 const copperMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`copperMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:copper_machine", event, outputIngredient, inputIngredient)
 }
 
 const goldMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`goldMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:gold_machine", event, outputIngredient, inputIngredient)
 }
 
 const brassMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`brassMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:brass_machine", event, outputIngredient, inputIngredient)
 }
 
 const zincMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`zincMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:zinc_machine", event, outputIngredient, inputIngredient)
 }
 
 const leadMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`leadMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:lead_machine", event, outputIngredient, inputIngredient)
 }
 
 
 const invarMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`invarMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("thermal:machine_frame", event, outputIngredient, inputIngredient)
 }
 
 const enderiumMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`enderiumMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("kubejs:enderium_machine", event, outputIngredient, inputIngredient)
 }
 
 const fluixMachine = (event, outputIngredient, inputIngredient) => {
+    console.log(`fluixMachine called with: outputIngredient=${outputIngredient}, inputIngredient=${inputIngredient}`)
     return createMachine("ae2:controller", event, outputIngredient, inputIngredient)
 }
 
@@ -193,6 +215,7 @@ const addTreeOutput = (event, trunk, leaf, fluid) => {
  * @param {number} castingTime the time it takes to cast a block in a casting table (nugget and ingot casting times will be calculated based on that)
  */
 const metalCasting = (event, metalName, castingTime) => {
+    console.log(`metalCasting called for: ${metalName}`)
     let fluidTag = "forge:molten_" + metalName
 
     let blockTag = "forge:storage_blocks/" + metalName
@@ -223,6 +246,7 @@ const metalCasting = (event, metalName, castingTime) => {
     // casting into casts
     castTypes.forEach(cast=>{
         if (Ingredient.of(`#forge:${cast.name}s/${metalName}`).first != Item.empty) {
+            console.log(`Creating casting recipe for ${metalName} ${cast.name}`)
             event.custom({
                 "type": "tconstruct:casting_table",
                 "cast": {
@@ -249,11 +273,14 @@ const metalCasting = (event, metalName, castingTime) => {
                 "result": {"tag": `forge:${cast.name}s/${metalName}`},
                 "cooling_time": Math.round(castingTime * cast.cooldownMultiplier)
             }).id(`kubejs:smeltery/casting/metal/${metalName}/${cast.name}_sand_cast`)
+        } else {
+            console.log(`Skipping ${metalName} ${cast.name} - tag is empty`)
         }
     })
 
     // ingot chilling
     if (Ingredient.of(`#forge:ingots/${metalName}`).first != Item.empty) {
+        console.log(`Creating chilling recipe for ${metalName} ingot`)
         event.custom({
             "type": "thermal:chiller",
             "ingredients": [{
@@ -268,6 +295,8 @@ const metalCasting = (event, metalName, castingTime) => {
             }],
             "energy": 5000
         }).id(`kubejs:crucible/kubejs/smeltery/casting/metal/${metalName}/ingot_gold_cast`)
+    } else {
+        console.log(`Skipping ${metalName} ingot chilling - no ingots found`)
     }
 }
 /**
@@ -279,12 +308,14 @@ const metalCasting = (event, metalName, castingTime) => {
  * @param {number} temperature the temperature required to melt a block in the smeltery
  */
 const metalMelting = (event, metalName, outputFluid, meltingTime, temperature) => {
+    console.log(`metalMelting called for: ${metalName}, outputFluid: ${outputFluid}`)
     let fluidTag = "forge:molten_" + metalName
 
     let blockTag = "forge:storage_blocks/" + metalName
 
     // block melting
     if (Ingredient.of(`#forge:storage_blocks/${metalName}`).first != Item.empty) {
+        console.log(`Creating melting recipe for ${metalName} block`)
         event.custom({
             "type": "tconstruct:melting",
             "ingredient": {"tag": `forge:storage_blocks/${metalName}`},
@@ -295,6 +326,8 @@ const metalMelting = (event, metalName, outputFluid, meltingTime, temperature) =
             "temperature": temperature,
             "time": meltingTime
         }).id(`kubejs:smeltery/melting/metal/${metalName}/block`)
+    } else {
+        console.log(`Skipping ${metalName} block melting - no blocks found`)
     }
 
     let castTypes = [
@@ -310,6 +343,7 @@ const metalMelting = (event, metalName, outputFluid, meltingTime, temperature) =
     // melting cast shapes
     castTypes.forEach(cast=>{
         if (Ingredient.of(`#forge:${cast.name}s/${metalName}`).first != Item.empty) {
+            console.log(`Creating melting recipe for ${metalName} ${cast.name}`)
             event.custom({
                 "type": "tconstruct:melting",
                 "ingredient": {"tag": `forge:${cast.name}s/${metalName}`},
@@ -320,11 +354,14 @@ const metalMelting = (event, metalName, outputFluid, meltingTime, temperature) =
                 "temperature": temperature,
                 "time": meltingTime * cast.timeMultiplier
             }).id(`kubejs:smeltery/melting/metal/${metalName}/${cast.name}`)
+        } else {
+            console.log(`Skipping ${metalName} ${cast.name} melting - tag is empty`)
         }
     })
 
     // ingot crucible melting
     if (Ingredient.of(`#forge:ingots/${metalName}`).first != Item.empty) {
+        console.log(`Creating crucible melting recipe for ${metalName} ingot`)
         event.custom({
             type:"thermal:crucible",
             ingredient: {
@@ -336,6 +373,8 @@ const metalMelting = (event, metalName, outputFluid, meltingTime, temperature) =
             }],
             energy:Math.round(meltingTime / 3) * 50
         }).id(`kubejs:crucible/kubejs/smeltery/melting/metal/${metalName}/ingot`)
+    } else {
+        console.log(`Skipping ${metalName} ingot crucible melting - no ingots found`)
     }
 }
 
@@ -436,20 +475,25 @@ const addOregenOverworld = function(event, featureName, blockName, heightType, h
  */
 // const ItemOutput = Java.loadClass('slimeknights.mantle.recipe.helper.ItemOutput');
 const getPreferredItemFromTag = (tag) => {
+    console.log(`getPreferredItemFromTag called with: ${tag}`)
     /* Tried using mantle for this and it didn't work on first launch unfortunately */
     // return Item.of(ItemOutput.fromTag(TagKey.create(Registry.ITEM_REGISTRY, tag), 1).get()).getId();
     /* Create a copy of the mantle preferred mods list */
     const preferredMods = ["minecraft", "create", "alloyed", "createdeco", "createaddition", "createbigcannons", "create_dd", "thermal", "tconstruct", "tmechworks"];
     const tagItems = Ingredient.of("#" + tag).itemIds;
+    console.log(`Tag ${tag} contains items: ${tagItems}`)
     for (let i = 0;i < preferredMods.length;++i) { let modId = preferredMods[i];
         for (let j = 0;j < tagItems.length;++j) { let itemId = tagItems[j];
             if (itemId.split(":")[0] === modId) {
+                console.log(`Found preferred item for ${tag}: ${itemId}`)
                 return itemId;
             }
         }
     }
     if (tagItems.length > 0) {
+        console.log(`No preferred mod found for ${tag}, using first item: ${tagItems[0]}`)
         return tagItems[0];
     }
+    console.log(`No items found for tag ${tag}, returning air`)
     return "minecraft:air";
 }
