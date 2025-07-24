@@ -25,13 +25,14 @@
             },
             {
                 "type": "origins:feed",
-                "food": 1
+                "food": 1,
+                "saturation": 0.01
             }
         ]
     },
     "cooldown": 1,
     "key": {
         "key": "key.use",
-        "continuous": true
+        "continuous": false
     }
 }
