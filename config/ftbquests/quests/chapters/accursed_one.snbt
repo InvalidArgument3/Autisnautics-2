@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accursed_one"
+	group: "0BFB33D75F4EAD91"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "38327310ED73E177"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["22107772A91372B0"]
+			description: ["The path you've chosen is not for the faint of heart. If you're a bad enough dude to handle the Seven Curses, then put on the ring..."]
+			hide_until_deps_complete: true
+			id: "6CC8D9848625CC34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E47C39F8CD0FB94"
+				table_id: 7440289656817868530L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				icon: "enigmaticlegacy:cursed_ring"
+				id: "6CA3091C271D4FC1"
+				title: "Put On The Ring"
+				type: "advancement"
+			}]
+			title: "One Ring to Rule Them All"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6CC8D9848625CC34"
+				"22107772A91372B0"
+			]
+			description: [
+				"Lesser beings use these intro quests to learn about some early-game gizmos for traversing the floating islands. But you're not one of those casuals. All an Accursed One needs to get around is a sword."
+				""
+				"Luckily, like all hardcore warriors, you had some spare bones and edgy rocks lying around in your pockets. Perfect to forge your first blade with."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "35F18B3DFEFEC5C6"
+			rewards: [{
+				id: "5BB2FEE599D1290B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "429C4BFAA4818070"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable/melee/sword"
+					}
+				}
+				title: "Any Tinker's Construct Sword"
+				type: "item"
+			}]
+			title: "Fuck Quests"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35F18B3DFEFEC5C6"]
+			description: ["Your newly forged blade hungers for the blood of your enemies. You can collect their tears in a bucket at the same time, and gain a useful tool for descending cliffs and dousing yourself if you catch fire."]
+			hide_until_deps_visible: true
+			id: "21F77EA64E11A9AB"
+			rewards: [{
+				id: "1D9475DF0D3BCC8A"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "3C2BC85C3DE43B8D"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 16
+			}]
+			title: "KILL"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35F18B3DFEFEC5C6"]
+			description: [
+				"The curse you bear makes neutral mobs aggro on you immediately. This includes Endermen. This means they could teleport in and attack you at any time. The spirit within your weapon seethes at the audacity of these monsters. Bathe its blade in their alien blood, and your sword may manifest a new power..."
+				""
+			]
+			hide_until_deps_visible: true
+			icon: "tconstruct:enderman_head"
+			id: "3680C9F8751A9E5F"
+			rewards: [{
+				auto: "enabled"
+				command: "/tconstruct modifiers @p add tconstruct:flinging 1"
+				elevate_perms: true
+				icon: "mna:greater_mote_ender"
+				id: "21EB47415778B6C2"
+				silent: true
+				title: "&5Your Tinker blade manifests a new power..."
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "tconstruct:enderman_head"
+				id: "04041B7DDE8154A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Disgusting Black Creatures"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3680C9F8751A9E5F"]
+			description: [
+				"Legends speak of a mysterious cursed artifact. It is said to repulse its owner from the ground, because the very land itself rejects them. To keep its corrupting influence away from mortals, it was sealed away in a prison beyond the heavens long ago."
+				""
+				"But you don't have to follow the rules. With a sword, you can go anywhere you want. Ascend beyond the highest heights, and grasp your first taste of forbidden power."
+			]
+			hide_until_deps_visible: true
+			icon: "thermal:drill_head"
+			id: "14A12AAB5FD3F6C1"
+			rewards: [{
+				auto: "enabled"
+				icon: "immersiveengineering:shader_bag_epic"
+				id: "641BC00F8A12FC5B"
+				tags: ["rainbouncereward"]
+				title: "&5??? Forbidden Artifact ???"
+				type: "custom"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7C28B9702199ED35"
+				ignore_dimension: false
+				position: [I;
+					-500000
+					325
+					-500000
+				]
+				size: [I;
+					1000000
+					1
+					1000000
+				]
+				title: "Reach Y > 325"
+				type: "location"
+			}]
+			title: "Pierce the Heavens"
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "The Sevenfold Curse"
+}

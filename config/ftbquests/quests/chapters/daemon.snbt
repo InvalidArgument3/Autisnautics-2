@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "daemon"
+	group: "0BFB33D75F4EAD91"
+	id: "2EB3EC9861015754"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ghost in the Machine"
+}

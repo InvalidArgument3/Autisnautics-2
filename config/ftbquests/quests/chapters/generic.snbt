@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "generic"
+	group: "0BFB33D75F4EAD91"
+	id: "0F40BB44472F412C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "FLAOT.jpg"
+}

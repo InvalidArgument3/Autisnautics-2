@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blobbian"
+	group: "0BFB33D75F4EAD91"
+	id: "3B9012879CADD3FC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "blobbiy quest"
+}

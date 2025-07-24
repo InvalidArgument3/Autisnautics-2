@@ -1,0 +1,108 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "origin_selector"
+	group: "0BFB33D75F4EAD91"
+	icon: "factory_blocks:hazard"
+	id: "27A8EC11B6702416"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22107772A91372B0"
+			secret: true
+			tasks: [{
+				icon: "enigmaticlegacy:cursed_ring"
+				id: "489F9B5C7B7E0652"
+				title: "Accursed One"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"This is an invisible chapter used to assign origin quests."
+				"You shouldn't be seeing this unless you're in edit mode."
+			]
+			id: "5378EDF26A6861D0"
+			secret: true
+			tasks: [{
+				icon: "minecraft:paper"
+				id: "779DF22D10B39A32"
+				title: "README.md"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "5866040E9BF5CB9F"
+			secret: true
+			tasks: [{
+				icon: "minecraft:player_head"
+				id: "7A02B51BE36C9E86"
+				title: "Generic"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "085150E24AC92F5C"
+			secret: true
+			tasks: [{
+				icon: "minecraft:cactus"
+				id: "0186FB5F788C2BC3"
+				title: "Cactoid"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "1688D58F977334FB"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "psi:psimetal_exosuit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "316796AAB6EDF9A7"
+				title: "Daemon"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "4EAB29CE8895395E"
+			secret: true
+			tasks: [{
+				icon: "minecraft:slime_ball"
+				id: "5AC44C2F24E566BD"
+				title: "Blobbian"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "4FE493562DC11639"
+			secret: true
+			tasks: [{
+				icon: "rats:cheese"
+				id: "22BA80BF7E7BA0F1"
+				title: "Rat"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "! Origin Selector"
+}

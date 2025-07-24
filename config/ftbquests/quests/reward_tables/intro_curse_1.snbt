@@ -1,0 +1,10 @@
+{
+	id: "67413805C4A45EF2"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "minecraft:bone" }
+		{ count: 8, item: "minecraft:flint" }
+	]
+	title: "intro_curse_1"
+}
