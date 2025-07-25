@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rat"
+	group: "0BFB33D75F4EAD91"
+	icon: "tconstruct:cheese_block"
+	id: "2E3CEFA2473F96EE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FE493562DC11639"]
+			hide_until_deps_complete: true
+			id: "0BE1DA955F49FBD6"
+			rewards: [{
+				id: "079B0A91F27CCFCD"
+				item: "rats:cheese"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "1F06E9D8DA8BE5C7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gnawing Logs"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BE1DA955F49FBD6"]
+			description: ["As a rat, your tough teeth let you mine stone without any tools. That should be useful for crafting a stone chisel, which you could use to carve pint-sized details."]
+			id: "3E391D4870926B8F"
+			rewards: [{
+				id: "3FC71D86A2129376"
+				item: {
+					Count: 1
+					id: "chiselsandbits:bit_bag"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "45A1BDEEA342429D"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hidey Hole"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BE1DA955F49FBD6"]
+			id: "6E3CD6919EAA9EE4"
+			rewards: [{
+				auto: "disabled"
+				command: "/effect give @p tconstruct:bleeding 10 0"
+				elevate_perms: true
+				icon: "rats:rat_pelt"
+				id: "05D87A9F3A21A75D"
+				silent: true
+				title: "&cThis could hurt..."
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5DA07794E31B6312"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/axes"
+						}
+					}
+					match_nbt: false
+					only_from_crafting: false
+					title: "Any Axe"
+					type: "item"
+				}
+				{
+					id: "2EDF71D7227FCDF9"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Skin Off My Nose"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E3CD6919EAA9EE4"]
+			id: "1BAFDA330E991BEC"
+			rewards: [{
+				count: 2
+				id: "55F11D7CEE932520"
+				item: {
+					Count: 1
+					id: "minecraft:string"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Rat Whisker\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "113C6DFF6DF803AF"
+				item: "vc_gliders:reinforced_paper"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Stacking Paper"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BAFDA330E991BEC"]
+			id: "779266F2F19F839E"
+			rewards: [{
+				id: "61E770B1806D4DF7"
+				item: "rats:block_of_cheese"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6CDEDC8CD68A9F15"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "The Flying Rat"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4FE493562DC11639"]
+			description: ["An ancient legend passed down among rat-kind says the moon is made of cheese. If you make it to the moon someday, all that cheese could be yours..."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "097BF458D48E4B46"
+			rewards: [{
+				icon: "ad_astra:moon_cheese_ore"
+				id: "6FA77C81A799237A"
+				title: "&bAll the cheese you can eat..."
+				type: "custom"
+			}]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "59A000B55686AD38"
+				title: "Go to the Moon"
+				type: "dimension"
+			}]
+			title: "Moon Cheese"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "The Big Cheese"
+}

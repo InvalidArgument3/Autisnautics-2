@@ -25,6 +25,9 @@
                 "tag": "brewinandchewin:cheese_wedges"
             },
             {
+                "tag": "forge:cheese"
+            },
+            {
                 "item": "tconstruct:cheese_ingot"
             },
             {
@@ -41,6 +44,15 @@
             },
             {
                 "item": "delightful:deluxe_cheeseburger"
+            },
+            {
+                "item": "rats:blue_cheese"
+            },
+            {
+                "item": "rats:nether_cheese"
+            },
+            {
+                "item": "rats:string_cheese"
             }
         ]
     },
