@@ -3,9 +3,281 @@
 	default_quest_shape: ""
 	filename: "cactoid"
 	group: "0BFB33D75F4EAD91"
+	icon: "quark:cactus_block"
 	id: "7C67100AFA5B43EA"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["085150E24AC92F5C"]
+			description: ["Lesser races might try and navigate this broken landscape with gliders and boats, but the Cactoids know better. There's no problem that can't be solved by shooting at it. The first step to building your problem-solvers will be forging some iron."]
+			id: "128900FD54A81038"
+			rewards: [{
+				count: 2
+				id: "77C7A2FCBCAAC345"
+				item: {
+					Count: 1
+					id: "minecraft:string"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Shredded Burger Wrapper\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0D03F2A1FE746696"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Big Iron"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["128900FD54A81038"]
+			description: ["The crossbow: a weapon so simple, even the tyrants of the outer isles permit their peasants to own one. While it's hardly a real weapon by Cactoid standards, your race's talent for biosmithing will help you transform it into something better later."]
+			id: "71659ADD9BF9E5A1"
+			rewards: [{
+				id: "2B50902651451328"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Mtn Dew™ Baja Blast®\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6B24DFCCE3B54DD4"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Legal in the UK"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128900FD54A81038"]
+			description: ["Now that you've got iron, you can build a gun bench. Once you have that, all it'll take to cobble together a real gun is some wood and rocks. The ATF will never know a thing."]
+			id: "73641E4A11A71215"
+			rewards: [{
+				count: 8
+				id: "0C6F740F118BC3FF"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"ATF Agent's Rotten Flesh\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1E10172BC23CF6"
+				item: "scguns:gun_bench"
+				type: "item"
+			}]
+			title: "Unregistered Firearm"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128900FD54A81038"]
+			description: [
+				"While Cactoids have a reputation for spewing all sorts of things, gunpowder is the most famous. Endosymbiotic glands in every Cactoid's digestive tract can rapidly digest rotten flesh into gunpowder, which is immediately vomited back up."
+				""
+				"It's thought the Cactoids' enigmatic progenitors engineered them with this ability, but no one's quite sure what its original purpose was. Nowadays, it's mainly used as a defense mechanism in times of great need."
+				""
+				"Well, you have a need. A need for ammunition. Now eat the flesh."
+			]
+			id: "0940460C24391D32"
+			rewards: [{
+				id: "3B5E3B0CC3440A29"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexscaves:long_deepsight"
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Mtn Dew™ Voltage® (2008 Vintage)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "73E0A7B7115BC971"
+				item: { Count: 8, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			title: "Regurgitated Slop"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71659ADD9BF9E5A1"]
+			icon: {
+				Count: 1
+				id: "artifacts:novelty_drinking_hat"
+				tag: {
+					abilities: {
+						drinking: {
+							points: 0
+							stats: {
+								speed: 0.34695d
+							}
+						}
+						nutrition: {
+							points: 0
+							stats: {
+								hunger: 2.0612d
+							}
+						}
+					}
+				}
+			}
+			id: "0DCC71420C57E089"
+			rewards: [{
+				icon: "botania:corporea_spark_creative"
+				id: "27F34D4DC5B2CF8A"
+				title: "&aYour crossbow is transformed by Cactoid biosmithing..."
+				type: "custom"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "38A1B2B321498134"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_fishes"
+						}
+					}
+					only_from_crafting: false
+					title: "64x Raw Fishes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5E8C12F8B9CE85A4"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "Fish Fear Me"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["128900FD54A81038"]
+			description: [
+				"The CAD might not run on gunpowder, but it probably counts as a gun, too."
+				"It could be a useful alternative for traversing the islands - if you can figure out how to program it with the right spells."
+			]
+			id: "69FDD93C8097E0FB"
+			rewards: [{
+				id: "4F24E7C3E51FDE6A"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1CE98EC067B435CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_iron"
+						}
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "The Other Gun"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["085150E24AC92F5C"]
+			description: [
+				"The Cactoid histories have always recorded that their origins lie beyond this world. Traditional myths state that beings from the moon once created the Cactoids, long ago. But when the land rose from the sea, they suddenly disappeared. Lacking any other concrete information about these hypothetical beings, historians dub them \"Lunarians\"."
+				""
+				"If you could somehow make it to the moon, you could solve the mystery of the Cactoids once and for all. And if the Lunarians really do exist, you could send them a clear message... that their creations have surpassed them."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5181318DC4AAD768"
+			rewards: [{
+				command: "/effect give @p attributeslib:knowledge infinite 0 true"
+				elevate_perms: true
+				icon: "mna:greater_mote_ender"
+				id: "7F3336E09CBC1BA1"
+				silent: true
+				title: "&dReclaim the ancient knowledge that is your birthright."
+				type: "command"
+			}]
+			subtitle: " If I met my creator, I'd punch him in the face"
+			tasks: [{
+				entity: "ad_astra:lunarian"
+				icon: "ad_astra:moon_globe"
+				id: "65706A8A8D2297B4"
+				title: "Kill: 1x Lunarian (?)"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Makers"
+			x: 0.0d
+			y: 4.5d
+		}
+	]
 	title: "Munitions Plant"
 }

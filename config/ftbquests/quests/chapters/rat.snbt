@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["4FE493562DC11639"]
+			description: ["Rats may have a lot of talents, but flying isn't one of them. At least, not yet. There's only one way to get started down the path to rat-powered flight. Time to punch trees."]
 			hide_until_deps_complete: true
 			id: "0BE1DA955F49FBD6"
 			rewards: [{
@@ -67,6 +68,10 @@
 		}
 		{
 			dependencies: ["0BE1DA955F49FBD6"]
+			description: [
+				"For your garden-variety autist, building a glider would mean gathering leather and other parts from local fauna. But you &oare&r the local fauna."
+				"With an axe and a cutting board, you can take a little bit off the top, and harvest the supplies you need..."
+			]
 			id: "6E3CD6919EAA9EE4"
 			rewards: [{
 				auto: "disabled"
@@ -106,6 +111,7 @@
 		}
 		{
 			dependencies: ["6E3CD6919EAA9EE4"]
+			description: ["For the next step you'll need reinforced paper, but sugarcane can be hard to find on the islands. Luckily, that axe and cutting board can strip logs, and the tree bark left behind can be made into paper. Combined with the other parts, you've got reinforced paper. All you'll need after that are a couple of whiskers..."]
 			id: "1BAFDA330E991BEC"
 			rewards: [{
 				count: 2
@@ -137,6 +143,7 @@
 		}
 		{
 			dependencies: ["1BAFDA330E991BEC"]
+			description: ["You've got all the parts, all that remains is to assemble the glider and lift off. That's one small step for rat, one giant leap for rat-kind."]
 			id: "779266F2F19F839E"
 			rewards: [{
 				id: "61E770B1806D4DF7"

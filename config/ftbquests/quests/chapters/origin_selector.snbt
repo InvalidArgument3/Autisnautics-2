@@ -155,6 +155,36 @@
 			x: 3.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["0DCC71420C57E089"]
+			description: ["Grappling squok reward for Cactoid"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "factory_blocks:hazard"
+			id: "13491A62C6E95E60"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "0DA787BBAE69EF9F"
+				item: {
+					Count: 1
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "6AAB30B7345713D0"
+				type: "dimension"
+			}]
+			title: "squok_reward"
+			x: -2.5d
+			y: 1.5d
+		}
 	]
 	title: "! Origin Selector"
 }
